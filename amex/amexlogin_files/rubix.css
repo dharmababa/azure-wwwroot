@@ -1,0 +1,302 @@
+body.footerTexture {
+    background-color: white;
+    background-image: url(../images/texture.png);
+    -webkit-background-size: 65px 44px;
+    -moz-background-size: 65px 44px;
+    -ms-background-size: 65px 44px;
+    -o-background-size: 65px 44px;
+    background-size: 65px 44px;
+}
+
+.Rubix input[type='checkbox']:checked:after,
+.Rubix.Section,
+.Rubix.Section:after {
+    background-image: url(data:image/png;base64,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);
+    -webkit-background-size: 22px 205px;
+    -moz-background-size: 22px 205px;
+    -ms-background-size: 22px 205px;
+    -o-background-size: 22px 205px;
+    background-size: 22px 205px;
+}
+
+.Rubix,
+.Rubix h1,
+#RubixPostBody > h1,
+.Rubix input[type='submit'],
+.Rubix input[type='reset' ],
+.Rubix input[type='button'],
+.Rubix button {
+    font-family: BentonSans, Helvetica, Arial;
+    font-weight: normal;
+}
+
+    .RubixBold,
+    .Rubix b,
+    .Rubix strong,
+    .Rubix .error {
+        font-family: BentonSansBold, Helvetica, Arial;
+        font-weight: bold;
+    }
+
+    /* Override default styling for sunken input fields. Give slight 3d effect. */
+    .Rubix input[type='text'],
+    .Rubix input[type='password'],
+    .Rubix input[type='tel'],
+    .Rubix input[type='email'] {
+        background-color: white;
+        border-color: #bbbbbb;
+        border-width: 2px;
+        border-radius: 5px;
+        border-style: solid;
+        box-shadow: 0px 0px 1px 1px #E7E7E7 inset;
+    }
+
+    
+    .Rubix input[type='checkbox'] {
+        /* Disable default styling. */
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        -ms-appearance: none;
+        -o-appearance: none;
+        background-color: white;
+        border-color: #BBBBBB;
+        /* Background clipping keeps the background from filling into the border. */
+        -webkit-background-clip: padding-box;
+        -moz-background-clip: padding;
+        background-clip: padding-box;
+        /* This is a lot of redundant data but doesn't really add extra weight when gzipped.
+     * File is still small enough  that it shouldn't add extra time to download.
+     */
+        -webkit-border-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAALCAYAAACprHcmAAAAAXNSR0IArs4c6QAAAYNJREFUGNNVyjGO2kAYhuHvH8ZGaLyFocISFRxgN8oFQhHlFkgUUK8iUUS7TRIlkqUoNaAUnIEit8hyAEgByBV4Co9lsH/PpMmukqd6i5fw13w+v+10Ot+UUq+klDfMnOV5/ut8Pr+fTqcbACAAWK1WD71e71O32+UgCEhKCWaGMcYlSSKPx+PjaDT6TMvl8l2/3/85GAzqMAzRbDYhhIC1FtfrFVprbLfbxm63eyvDMJxFUcTtdptarRaICEQEIQQajQaICFEUcZqmH0QQBHdKKfJ9H0SEfxERfN+HUoqUUq+llPJGSgkhxH/zcwshIKWE53ktwcwZM8NaC+ccnHMA8NLWWjAzmNkIY8wmz3NXluXL+Mw5h7Iskee5M8Y8Ca31lyRJZJqmKIoCzIy6rsHMKIoCaZoiSRKptf7aWK/Xv4fDoajr+o211lZVRZfLBVmW4XQ6uf1+Lw+Hw8fxePyD4jjGbDbDYrG4DcPwexAEd57nBVVVGWPMRmt9P5lMnuI4xh8IBsz/yKvW4gAAAABJRU5ErkJggg==) 5 5 5 5 stretch stretch;
+        -moz-border-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAALCAYAAACprHcmAAAAAXNSR0IArs4c6QAAAYNJREFUGNNVyjGO2kAYhuHvH8ZGaLyFocISFRxgN8oFQhHlFkgUUK8iUUS7TRIlkqUoNaAUnIEit8hyAEgByBV4Co9lsH/PpMmukqd6i5fw13w+v+10Ot+UUq+klDfMnOV5/ut8Pr+fTqcbACAAWK1WD71e71O32+UgCEhKCWaGMcYlSSKPx+PjaDT6TMvl8l2/3/85GAzqMAzRbDYhhIC1FtfrFVprbLfbxm63eyvDMJxFUcTtdptarRaICEQEIQQajQaICFEUcZqmH0QQBHdKKfJ9H0SEfxERfN+HUoqUUq+llPJGSgkhxH/zcwshIKWE53ktwcwZM8NaC+ccnHMA8NLWWjAzmNkIY8wmz3NXluXL+Mw5h7Iskee5M8Y8Ca31lyRJZJqmKIoCzIy6rsHMKIoCaZoiSRKptf7aWK/Xv4fDoajr+o211lZVRZfLBVmW4XQ6uf1+Lw+Hw8fxePyD4jjGbDbDYrG4DcPwexAEd57nBVVVGWPMRmt9P5lMnuI4xh8IBsz/yKvW4gAAAABJRU5ErkJggg==) 5 5 5 5 stretch stretch;
+        -ms-border-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAALCAYAAACprHcmAAAAAXNSR0IArs4c6QAAAYNJREFUGNNVyjGO2kAYhuHvH8ZGaLyFocISFRxgN8oFQhHlFkgUUK8iUUS7TRIlkqUoNaAUnIEit8hyAEgByBV4Co9lsH/PpMmukqd6i5fw13w+v+10Ot+UUq+klDfMnOV5/ut8Pr+fTqcbACAAWK1WD71e71O32+UgCEhKCWaGMcYlSSKPx+PjaDT6TMvl8l2/3/85GAzqMAzRbDYhhIC1FtfrFVprbLfbxm63eyvDMJxFUcTtdptarRaICEQEIQQajQaICFEUcZqmH0QQBHdKKfJ9H0SEfxERfN+HUoqUUq+llPJGSgkhxH/zcwshIKWE53ktwcwZM8NaC+ccnHMA8NLWWjAzmNkIY8wmz3NXluXL+Mw5h7Iskee5M8Y8Ca31lyRJZJqmKIoCzIy6rsHMKIoCaZoiSRKptf7aWK/Xv4fDoajr+o211lZVRZfLBVmW4XQ6uf1+Lw+Hw8fxePyD4jjGbDbDYrG4DcPwexAEd57nBVVVGWPMRmt9P5lMnuI4xh8IBsz/yKvW4gAAAABJRU5ErkJggg==) 5 5 5 5 stretch stretch;
+        -o-border-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAALCAYAAACprHcmAAAAAXNSR0IArs4c6QAAAYNJREFUGNNVyjGO2kAYhuHvH8ZGaLyFocISFRxgN8oFQhHlFkgUUK8iUUS7TRIlkqUoNaAUnIEit8hyAEgByBV4Co9lsH/PpMmukqd6i5fw13w+v+10Ot+UUq+klDfMnOV5/ut8Pr+fTqcbACAAWK1WD71e71O32+UgCEhKCWaGMcYlSSKPx+PjaDT6TMvl8l2/3/85GAzqMAzRbDYhhIC1FtfrFVprbLfbxm63eyvDMJxFUcTtdptarRaICEQEIQQajQaICFEUcZqmH0QQBHdKKfJ9H0SEfxERfN+HUoqUUq+llPJGSgkhxH/zcwshIKWE53ktwcwZM8NaC+ccnHMA8NLWWjAzmNkIY8wmz3NXluXL+Mw5h7Iskee5M8Y8Ca31lyRJZJqmKIoCzIy6rsHMKIoCaZoiSRKptf7aWK/Xv4fDoajr+o211lZVRZfLBVmW4XQ6uf1+Lw+Hw8fxePyD4jjGbDbDYrG4DcPwexAEd57nBVVVGWPMRmt9P5lMnuI4xh8IBsz/yKvW4gAAAABJRU5ErkJggg==) 5 5 5 5 stretch stretch;
+        border-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAALCAYAAACprHcmAAAAAXNSR0IArs4c6QAAAYNJREFUGNNVyjGO2kAYhuHvH8ZGaLyFocISFRxgN8oFQhHlFkgUUK8iUUS7TRIlkqUoNaAUnIEit8hyAEgByBV4Co9lsH/PpMmukqd6i5fw13w+v+10Ot+UUq+klDfMnOV5/ut8Pr+fTqcbACAAWK1WD71e71O32+UgCEhKCWaGMcYlSSKPx+PjaDT6TMvl8l2/3/85GAzqMAzRbDYhhIC1FtfrFVprbLfbxm63eyvDMJxFUcTtdptarRaICEQEIQQajQaICFEUcZqmH0QQBHdKKfJ9H0SEfxERfN+HUoqUUq+llPJGSgkhxH/zcwshIKWE53ktwcwZM8NaC+ccnHMA8NLWWjAzmNkIY8wmz3NXluXL+Mw5h7Iskee5M8Y8Ca31lyRJZJqmKIoCzIy6rsHMKIoCaZoiSRKptf7aWK/Xv4fDoajr+o211lZVRZfLBVmW4XQ6uf1+Lw+Hw8fxePyD4jjGbDbDYrG4DcPwexAEd57nBVVVGWPMRmt9P5lMnuI4xh8IBsz/yKvW4gAAAABJRU5ErkJggg==) 5 5 5 5 stretch stretch;
+        border-width: 5px;
+    }
+    */
+/* Older non-retina WebKit browsers will render retina-quality border
+ * images with a line on the inside.  Separating this rule into retina
+ * and non-retina versions eliminates the issue.
+ */
+@media screen and (-webkit-min-device-pixel-ratio: 2), screen and (min--moz-device-pixel-ratio: 2) {
+    .Rubix input[type='text'],
+    .Rubix input[type='password'],
+    .Rubix input[type='tel'],
+    .Rubix input[type='email'],
+    .Rubix input[type='checkbox'] {
+        -webkit-border-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAMAAADzapwJAAAABGdBTUEAALGPC/xhBQAAAMBQTFRFAAAAAAAAjo6O3NzcoaGhw8PD7e3tjo6OlpaWmJiYnJyclpaWrq6u/v7+ysrK6enprq6u+/v7/v7+p6enw8PDvb2909PTp6en/v7+8vLymJiY+fn54uLipaWlvLy8ra2t7e3t09PT9vb24uLi39/f8PDwtra2nZ2dqampvLy8oqKirq6uysrKmZmZjY2N/v7+2dnZ7u7u9fX1+vr65eXl/f39wsLC0dHR+Pj46+vryMjI3d3d/v7+sbGxAAAA////pY+zWAAAAEB0Uk5TAAAG/Kn8/AYnVnUo/Pz8/O78/Nf8/Pzd/PxR/PzH/PX8/Pz8/Pz8hs78pPv8WwP8/Pz8/Pz8/Pz8/Pz8/PwA/KSEdYEAAADySURBVBjTdZFhq4IwFIYPWlJd70ykiWkThpEYiVPZrpND//9ftWF2u3R9Pz6Dc3beB8CmPlblFfFaVscaXtmckElNiJYMT5uZ7nKmVeMWhdsozfLdRC8oldsHnhBe0LtK4sXSrS9pNpxbnqa8PQ8Zlf4WwIkPKhO8C79Nwq4VmTpEDtyQjAM38G5iHvgwErxBxWifdBO1vEt6yiqI1k3Qhk9qeMiDZh3DXo8ef1HDf7xR54CkEOk7TkVBcAl/DOFmyP5zZWtWRksfXDjHif4cz+3xsTNXlUxVJXNVS8VC/aaBWg31f9K+fmVaxT6iX66eih/xED9kLyyrNAAAAABJRU5ErkJggg==) 10 10 10 10 round round;
+        -moz-border-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAMAAADzapwJAAAABGdBTUEAALGPC/xhBQAAAMBQTFRFAAAAAAAAjo6O3NzcoaGhw8PD7e3tjo6OlpaWmJiYnJyclpaWrq6u/v7+ysrK6enprq6u+/v7/v7+p6enw8PDvb2909PTp6en/v7+8vLymJiY+fn54uLipaWlvLy8ra2t7e3t09PT9vb24uLi39/f8PDwtra2nZ2dqampvLy8oqKirq6uysrKmZmZjY2N/v7+2dnZ7u7u9fX1+vr65eXl/f39wsLC0dHR+Pj46+vryMjI3d3d/v7+sbGxAAAA////pY+zWAAAAEB0Uk5TAAAG/Kn8/AYnVnUo/Pz8/O78/Nf8/Pzd/PxR/PzH/PX8/Pz8/Pz8hs78pPv8WwP8/Pz8/Pz8/Pz8/Pz8/PwA/KSEdYEAAADySURBVBjTdZFhq4IwFIYPWlJd70ykiWkThpEYiVPZrpND//9ftWF2u3R9Pz6Dc3beB8CmPlblFfFaVscaXtmckElNiJYMT5uZ7nKmVeMWhdsozfLdRC8oldsHnhBe0LtK4sXSrS9pNpxbnqa8PQ8Zlf4WwIkPKhO8C79Nwq4VmTpEDtyQjAM38G5iHvgwErxBxWifdBO1vEt6yiqI1k3Qhk9qeMiDZh3DXo8ef1HDf7xR54CkEOk7TkVBcAl/DOFmyP5zZWtWRksfXDjHif4cz+3xsTNXlUxVJXNVS8VC/aaBWg31f9K+fmVaxT6iX66eih/xED9kLyyrNAAAAABJRU5ErkJggg==) 10 10 10 10 round round;
+    }
+}
+
+.Rubix input[type='text'],
+.Rubix input[type='password'],
+.Rubix input[type='tel'],
+.Rubix input[type='email'] {
+    /* Base sizing on the outer border so width can be set to 100% */
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 25px;
+    font-size: 9pt;
+    padding: 0px 1px;
+}
+
+.Rubix input[type='checkbox'] {
+    margin: 0;
+    width: 23px;
+    height: 22px;
+    vertical-align: top;
+    position: relative;
+}
+
+    /* Since the element appearance is disabled, use CSS image. */
+    .Rubix input[type='checkbox']:checked:after {
+        position: absolute;
+        top: -5px;
+        left: -5px;
+        bottom: -5px;
+        right: -5px;
+        background-position: 0px 0px;
+        content: ' ';
+    }
+
+.Rubix input[type='submit'],
+.Rubix input[type='reset' ],
+.Rubix input[type='button'],
+.Rubix button {
+    width: 106px;
+    height: 27px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    background-color: #002561;
+    border: 0px;
+    color: white;
+    font-size: 10pt;
+    -webkit-box-shadow: inset 1px 2px 6px 1px rgba(0,0,0,.5);
+    box-shadow: inset 1px 2px 6px 1px rgba(0,0,0,.5);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+}
+
+    .Rubix input[type='submit']:hover,
+    .Rubix input[type='reset' ]:hover,
+    .Rubix input[type='button']:hover,
+    .Rubix button:hover {
+        background-color: #00648f;
+    }
+
+.Rubix.Section {
+    display: block;
+    position: relative;
+    padding: 20px 18px 10px 18px;
+    background-color: white;
+    background-position: 0 -90px;
+    background-repeat: repeat-x;
+}
+
+    .Rubix.Section:after {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 22px;
+        height: 25px;
+        background-position: 0px -25px;
+        content: ' ';
+    }
+
+    .Rubix.Section h1 {
+        margin: 0 0 3px;
+        font-size: 13pt;
+        color: #002663;
+        text-transform: uppercase;
+    }
+
+.Rubix .error {
+    position: relative;
+    margin: 10px 0 0 21px;
+    color: #c10000;
+    font-size: 9pt;
+    line-height: 18px;
+}
+
+    .Rubix .error:before {
+        position: absolute;
+        top: 1px;
+        left: -21px;
+        width: 17px;
+        height: 16px;
+        background: url(../images/status-error.png) 0 0 no-repeat;
+        content: ' ';
+    }
+
+
+/* PreLogin Home Page */
+#RubixPreBody,
+#RubixThankYouBody {
+    display: block;
+    background-color: white;
+}
+
+    #RubixThankYouBody input[type=submit] {
+        margin: 10px 0px;
+    }
+
+.Rubix.Section p {
+    margin: 0 0 8px;
+    font-size: 9pt;
+    color: #4d4f53;
+}
+
+#loginForm a,
+#loginForm label {
+    color: #002663;
+    font-size: 9pt;
+    text-decoration: none;
+}
+
+#loginForm .input-row,
+#loginForm .submit-row {
+    position: relative;
+    margin: 0 0 6px 70px;
+}
+
+#loginForm .submit-row {
+    text-align: right;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+#loginForm #UserID,
+#loginForm #password {
+    width: 100%;
+}
+
+#loginForm label[for='UserID'],
+#loginForm label[for='password'] {
+    position: absolute;
+    top: 0px;
+    left: -70px;
+    line-height: 25px;
+    font-size: 9pt;
+}
+
+#loginForm small {
+    position: absolute;
+    left: -70px;
+    line-height: 27px;
+}
+
+/* PostLogin Home Page */
+#RubixPostBody {
+    display: block;
+    background-color: #8B8D8D;
+    margin: 0;
+    padding: 0;
+}
+
+    #RubixPostBody > h1 {
+        color: white;
+        text-align: center;
+        font-size: 10.5pt;
+        margin: 0;
+        padding: 14px;
+        text-transform: capitalize;
+        /* In case of really long cardmember names, break if supported, otherwise hide. */
+        word-wrap: break-word;
+        width: 100%;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+        -o-box-sizing: border-box;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+
+#RubixFooterGradient {
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ffffff), color-stop(100%, rgba(255,255,255,0)));
+    background-image: -webkit-linear-gradient(top, #ffffff 0, rgba(255,255,255,0) 100%);
+    background-image: -moz-linear-gradient(top, #ffffff 0, rgba(255,255,255,0) 100%);
+    background-image: -ms-linear-gradient(top, #ffffff 0, rgba(255,255,255,0) 100%);
+    background-image: -o-linear-gradient(top, #ffffff 0, rgba(255,255,255,0) 100%);
+    background-image: linear-gradient(top, #ffffff 0, rgba(255,255,255,0) 100%);
+    height: 120px;
+    /* margin-bottom:    50px;
+     *
+     * Margins at the end of the page aren't counted when evaluating body height, meaning
+     * the menu overlay wouldn't extend into the margin.  The below solution limits the
+     * gradient to 120px while still keeping the page long enough to ensure scrolling.
+     *
+     * TODO: Remove me when another method for ensuring page height is in place.
+     */
+    border-bottom: 50px solid transparent;
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+}
