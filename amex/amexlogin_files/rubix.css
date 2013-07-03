@@ -42,16 +42,7 @@ body.footerTexture {
     .Rubix input[type='text'],
     .Rubix input[type='password'],
     .Rubix input[type='tel'],
-    .Rubix input[type='email'] {
-        background-color: white;
-        border-color: #bbbbbb;
-        border-width: 2px;
-        border-radius: 5px;
-        border-style: solid;
-        box-shadow: 0px 0px 1px 1px #E7E7E7 inset;
-    }
-
-    
+    .Rubix input[type='email'],
     .Rubix input[type='checkbox'] {
         /* Disable default styling. */
         -webkit-appearance: none;
@@ -59,7 +50,7 @@ body.footerTexture {
         -ms-appearance: none;
         -o-appearance: none;
         background-color: white;
-        border-color: #BBBBBB;
+        border-color: transparent;
         /* Background clipping keeps the background from filling into the border. */
         -webkit-background-clip: padding-box;
         -moz-background-clip: padding;
@@ -74,7 +65,7 @@ body.footerTexture {
         border-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAALCAYAAACprHcmAAAAAXNSR0IArs4c6QAAAYNJREFUGNNVyjGO2kAYhuHvH8ZGaLyFocISFRxgN8oFQhHlFkgUUK8iUUS7TRIlkqUoNaAUnIEit8hyAEgByBV4Co9lsH/PpMmukqd6i5fw13w+v+10Ot+UUq+klDfMnOV5/ut8Pr+fTqcbACAAWK1WD71e71O32+UgCEhKCWaGMcYlSSKPx+PjaDT6TMvl8l2/3/85GAzqMAzRbDYhhIC1FtfrFVprbLfbxm63eyvDMJxFUcTtdptarRaICEQEIQQajQaICFEUcZqmH0QQBHdKKfJ9H0SEfxERfN+HUoqUUq+llPJGSgkhxH/zcwshIKWE53ktwcwZM8NaC+ccnHMA8NLWWjAzmNkIY8wmz3NXluXL+Mw5h7Iskee5M8Y8Ca31lyRJZJqmKIoCzIy6rsHMKIoCaZoiSRKptf7aWK/Xv4fDoajr+o211lZVRZfLBVmW4XQ6uf1+Lw+Hw8fxePyD4jjGbDbDYrG4DcPwexAEd57nBVVVGWPMRmt9P5lMnuI4xh8IBsz/yKvW4gAAAABJRU5ErkJggg==) 5 5 5 5 stretch stretch;
         border-width: 5px;
     }
-    */
+
 /* Older non-retina WebKit browsers will render retina-quality border
  * images with a line on the inside.  Separating this rule into retina
  * and non-retina versions eliminates the issue.
