@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "azure-wwwroot", "http://localhost:21018", "{D8CF1115-4ACF-4355-B0D4-8FB47BA32047}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_21018"
+		Debug.AspNetCompiler.PhysicalPath = "D:\azure-wwwroot\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_21018\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_21018"
+		Release.AspNetCompiler.PhysicalPath = "D:\azure-wwwroot\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_21018\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "D:\azure-wwwroot\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D8CF1115-4ACF-4355-B0D4-8FB47BA32047}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8CF1115-4ACF-4355-B0D4-8FB47BA32047}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
