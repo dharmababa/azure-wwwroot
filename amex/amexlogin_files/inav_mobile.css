@@ -1,12 +1,15 @@
 /* Rubix fonts */
 @font-face { 
    font-family:'BentonSans'; 
-   src:url("https://icm.aexp-static.com/NextGenNavigation/fonts/BentonSans-Regular.otf"); 
+   src:url("BentonSans-Regular.otf") format('opentype'); 
+   src:url("BentonSans-Regular.woff") format('woff'); 
+
    font-style:normal; 
 }
 @font-face { 
   font-family:'BentonSansBold'; 
-  src:url("https://icm.aexp-static.com/NextGenNavigation/fonts/BentonSans-Bold.otf"); 
+  src:url("BentonSans-Bold.otf") format('opentype'); 
+  src:url("BentonSans-Bold.woff") format('woff');
   font-weight:bold; 
   font-style:normal; 
 }
@@ -18,7 +21,7 @@
 #iNavMbl_Header .iNPopSubMenu li > a:after,
 #iNavMbl_Header #iNPopMenu > li > a:after,
 #rubixExperienceLinks a:before {
-    background-image: url("https://icm.aexp-static.com/NextGenNavigation/img/inav_mobile_sprite_ot.png");
+    background-image: url("./amexlogin_files/inav_mobile_sprite_ot.png");
 }
 
 @media screen and (-webkit-min-device-pixel-ratio: 2),
@@ -28,7 +31,7 @@
     #iNavMbl_Header .iNPopSubMenu li > a:after,
     #iNavMbl_Header #iNPopMenu > li > a:after,
     #rubixExperienceLinks a:before {
-        background-image: url("https://icm.aexp-static.com/NextGenNavigation/img/inav_mobile_sprite.png");
+        background-image: url("./amexlogin_files/inav_mobile_sprite.png");
         -webkit-background-size: 60px 430px;
            -moz-background-size: 60px 430px;
                 background-size: 60px 430px;
@@ -120,12 +123,12 @@ body.AXP_SuppressHdNav #iNavMbl_Header > .iNAmexLogo {
 #rubixExperienceLinks > nav > ul {
     display: -webkit-box;
     display: -moz-box;
-    display: -ms-box;
+    display: -ms-flexbox;
     display: -o-box;
     display: box;
     -webkit-box-pack: justify;
     -moz-box-pack: justify;
-    -ms-box-pack: justify;
+    -ms-flex-pack: justify;
     -o-box-pack: justify;
     box-pack: justify;
     width: 100%;
@@ -141,7 +144,7 @@ body.AXP_SuppressHdNav #iNavMbl_Header > .iNAmexLogo {
 #rubixExperienceLinks> nav > ul > li {
     -webkit-box-flex: 1;
     -moz-box-flex: 1;
-    -ms-box-flex: 1;
+    -ms-flex: 1;
     -o-box-flex: 1;
     box-flex: 1;
  /*width: 50%;*/
@@ -151,7 +154,7 @@ body.AXP_SuppressHdNav #iNavMbl_Header > .iNAmexLogo {
     text-align: center;
     -webkit-box-flex: 1;
     -moz-box-flex: 1;
-    -ms-box-flex: 1;
+    -ms-flex: 1;
     -o-box-flex: 1;
     box-flex: 1;
 }

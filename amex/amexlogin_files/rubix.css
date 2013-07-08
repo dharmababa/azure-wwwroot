@@ -42,7 +42,15 @@ body.footerTexture {
     .Rubix input[type='text'],
     .Rubix input[type='password'],
     .Rubix input[type='tel'],
-    .Rubix input[type='email'],
+    .Rubix input[type='email'] {
+        background-color: white;
+        border-color: #bbbbbb;
+        border-width: 2px;
+        border-radius: 5px;
+        border-style: solid;
+        box-shadow: 0px 0px 1px 1px #E7E7E7 inset;
+    }
+
     .Rubix input[type='checkbox'] {
         /* Disable default styling. */
         -webkit-appearance: none;
