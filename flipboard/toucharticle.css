@@ -1,0 +1,56 @@
+﻿       html, body {
+           -ms-user-select: none;
+        }
+        body {
+            background-color: white
+        }
+
+        #myGreatPicture {
+            -ms-touch-action: none; /* Disable touch behaviors, like pan and zoom */
+            transform: translateX(200px) translateY(200px) scale(0.5);
+            width: 400px;
+            height: 400px;
+            background-image: url(flowersc.jpg);
+        }
+
+        .container {
+            position: absolute;
+            overflow: visible;
+            transform-origin: 0px 0px;
+            margin: 0px;
+            padding: 0px;
+            border: 20px solid #fff;
+        }
+
+
+        .corner {
+            z-index: 10;
+            position: absolute;
+            width: 125px;
+            height: 125px;
+            background: -ms-linear-gradient(-45deg, rgba(226,221,217,1) 0%,rgba(226,221,217,1) 49%,rgba(0,0,0,.4) 50%,rgba(250,250,250,.1) 55%,rgba(255,255,255,.01) 100%);
+        }
+
+        .topLeft {
+            top: -40px;
+            left: -40px;
+        }
+
+        .topRight {
+            top: -40px;
+            right: -40px;
+            transform: rotate(90deg);
+        }
+
+        .bottomLeft {
+            bottom: -40px;
+            left: -40px;
+            transform: rotate(-90deg);
+        }
+
+        .bottomRight {
+            bottom: -40px;
+            right: -40px;
+            transform: rotate(180deg);
+        }
+ 

@@ -1,0 +1,154 @@
+<!-- Sample written by David Rousset - @davrous
+     Discover more here: http://aka.ms/pointerevents -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Touch article, MSGesture sample 2: MSGestureChange</title>
+    <link rel="stylesheet" type="text/css" href="toucharticle.css" />
+    <script src="Corners.js"></script>
+</head>
+<body>
+    <div id="event">Event</div>
+    <div id="radius">Radius:</div>
+    <div id="pos">Pos</div>
+    <div id="dist">Dist</div>
+    <div id="angle">Angle</div>
+    <div id="rotate">Rotate</div>
+    <div id="myGreatPicture" class="container"></div>
+    <script>
+        var myGreatPic = document.getElementById("myGreatPicture");
+        var myGreatPicAssociatedGesture = new MSGesture();
+        myGreatPicAssociatedGesture.target = myGreatPic;
+        var radius;
+        var myDist = document.getElementById("dist");
+        var myAngle = document.getElementById("angle");
+        var myPos = document.getElementById("pos");
+        var myRotate = document.getElementById("rotate");
+        var myEvent = document.getElementById("event");
+        var degree = 0;
+        var flip = false;
+        var reverse = false;
+
+        // You need to first register to MSPointerDown to be able to
+        // have access to more complex Gesture events
+        myGreatPic.addEventListener("MSPointerDown", pointerdown, false);
+        myGreatPic.addEventListener("MSGestureEnd", completeRotation, false);
+        //myGreatPic.addEventListener("MSGestureHold", holded, false);
+        myGreatPic.addEventListener("MSPointerUp", completeRotation, false);
+        myGreatPic.addEventListener("MSPointerOut", setFlip, false);
+        myGreatPic.addEventListener("MSGestureChange", manipulateElement, false);
+
+        function setFlip(e) {
+            flip = true;
+        }
+
+        function completeRotation(e) {
+            myEvent.innerHTML = "Event:completeRotation";
+            myAngle.innerHTML = "Angle: " + degree;
+            if (flip) {
+                if (reverse) {
+                    myRotate.innerHTML = "Rotate: " + (degree - 180);
+                    var m = new MSCSSMatrix(e.target.currentStyle.transform); // Get the latest CSS transform on the element
+                    e.target.style.transform = m
+                    //.translate(e.offsetX, e.offsetY) // Move the transform origin under the center of the gesture
+                    //.rotate(e.rotation * 180 / Math.PI) // Apply Rotation
+                    //.scale(e.scale) // Apply Scale
+                    .rotate(degree - 180, 0, 0); // Apply Translation
+                    //.translate(-e.offsetX, -e.offsetY); // Move the transform origin back
+                }
+                else {
+                    myRotate.innerHTML = "Rotate: " + (180 - degree);
+                    //e.target.style.transition = all 1s ease-in-out;
+                    var m = new MSCSSMatrix(e.target.currentStyle.transform); // Get the latest CSS transform on the element
+                    e.target.style.transform = m
+                    //.translate(e.offsetX, e.offsetY) // Move the transform origin under the center of the gesture
+                    //.rotate(e.rotation * 180 / Math.PI) // Apply Rotation
+                    //.scale(e.scale) // Apply Scale
+                    .rotate(180 - degree, 0, 0); // Apply Translation
+                    //.translate(-e.offsetX, -e.offsetY); // Move the transform origin back
+                }
+            }
+            degree = 0;
+            flip = false;
+        }
+
+        function manipulateElement(e) {
+            myEvent.innerHTML = "Event:manipulationElement";
+            // Uncomment the following code if you want to disable the built-in inertia provided by dynamic gesture recognition
+            // if (e.detail == e.MSGESTURE_FLAG_INERTIA)
+            // return;
+
+            myPos.innerHTML = "Pos: " + e.clientY;
+            myDist.innerHTML = "Dist: " + (e.clientY - 300);
+            myAngle.innerHTML = "Angle: " + degree;
+
+            if (reverse) {
+                myRotate.innerHTML = "Rotate: " + (degree - (Math.acos((300 - e.clientY) / radius)) * (180 / Math.PI));
+                var m = new MSCSSMatrix(e.target.currentStyle.transform); // Get the latest CSS transform on the element
+                e.target.style.transform = m
+                //.translate(e.offsetX, e.offsetY) // Move the transform origin under the center of the gesture
+                //.rotate(e.rotation * 180 / Math.PI) // Apply Rotation
+                //.scale(e.scale) // Apply Scale
+                .rotate(degree - (Math.acos((300 - e.clientY) / radius)) * (180 / Math.PI), 0, 0); // Apply Translation
+                //.translate(-e.offsetX, -e.offsetY); // Move the transform origin back
+                degree = Math.acos((300 - e.clientY) / radius) * (180 / Math.PI);
+            }
+            else {
+                myRotate.innerHTML = "Rotate: " + ((Math.acos((e.clientY - 300) / radius)) * (180 / Math.PI) - degree);
+                var m = new MSCSSMatrix(e.target.currentStyle.transform); // Get the latest CSS transform on the element
+                e.target.style.transform = m
+                //.translate(e.offsetX, e.offsetY) // Move the transform origin under the center of the gesture
+                //.rotate(e.rotation * 180 / Math.PI) // Apply Rotation
+                //.scale(e.scale) // Apply Scale
+                .rotate((Math.acos((e.clientY - 300) / radius)) * (180 / Math.PI) - degree, 0, 0); // Apply Translation
+                //.translate(-e.offsetX, -e.offsetY); // Move the transform origin back
+                degree = Math.acos((e.clientY - 300) / radius) * (180 / Math.PI);
+            }
+        }
+
+        // Once touched, we're sending all pointers to the MSGesture object
+        function pointerdown(event) {
+            myEvent.innerHTML = "Event: pointerdown";
+            myGreatPicAssociatedGesture.addPointer(event.pointerId);
+            if (event.clientY < 300)
+            {
+                degree = 0;
+                reverse = true;
+                radius = 300 - event.clientY;
+            }
+            else
+            {
+                reverse = false;
+                degree = 0;
+                radius = event.clientY - 300;
+            }
+            var myRadius = document.getElementById("radius");
+            myRadius.innerHTML = "Radius: " + radius;
+            myPos.innerHTML = "Pos: " + event.clientY;
+            myDist.innerHTML = "Dist: " + (event.clientY - 300);
+            myAngle.innerHTML = "Angle: " + degree;
+        }
+
+        // This event will be triggered by the MSGesture object
+        // based on the pointers provided during the MSPointerDown event
+        function holded(event) {
+            // The gesture begins, we're adding the corners
+            if (event.detail === event.MSGESTURE_FLAG_BEGIN) {
+                Corners.append(myGreatPic);
+            }
+        }
+
+        // We're removing the corners on pointer Up or Out
+        function removecorners(event) {
+            Corners.remove(myGreatPic);
+        }
+
+        // To avoid having the equivalent of the contextual  
+        // "right click" menu being displayed on the MSPointerUp event, 
+        // we're preventing the default behavior
+        myGreatPic.addEventListener("contextmenu", function (e) {
+            e.preventDefault();    // Disables system menu
+        }, false);
+    </script>
+</body>
+</html>

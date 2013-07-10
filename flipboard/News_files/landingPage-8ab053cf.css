@@ -1,0 +1,2163 @@
+@font-face {
+	font-family: HNC;
+}
+@font-face {
+	font-family: HNC;
+}
+@font-face {
+	font-family: HNC;
+}
+@font-face {
+	font-family: HNC;
+}
+@font-face {
+	font-family: HNC;
+}
+@font-face {
+	font-family: HNC;
+}
+@font-face {
+	font-family: Flipicons;
+}
+.fl-hbox {
+	-webkit-box-orient: horizontal; -moz-box-orient: horizontal; box-orient: horizontal
+}
+.fl-vbox {
+	-webkit-box-orient: vertical; -moz-box-orient: vertical; box-orient: vertical
+}
+.fl-center {
+	-webkit-box-pack: center; -moz-box-pack: center; -ms-flex-pack: center; box-pack: center
+}
+.fl-display-flex {
+	DISPLAY: flex
+}
+* {
+	BOX-SIZING: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -ms-touch-action: none; -ms-scroll-chaining: none
+}
+HTML {
+	FONT-SIZE: 16px; HEIGHT: 100%; FONT-FAMILY: HNC; WIDTH: 100%; BACKGROUND: #fff; COLOR: #000; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; -webkit-font-smoothing: antialiased
+}
+BODY {
+	FONT-SIZE: 16px; HEIGHT: 100%; FONT-FAMILY: HNC; WIDTH: 100%; BACKGROUND: #fff; COLOR: #000; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; -webkit-font-smoothing: antialiased
+}
+H1 {
+	FONT-WEIGHT: normal; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+H2 {
+	FONT-WEIGHT: normal; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+H3 {
+	FONT-WEIGHT: normal; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+H4 {
+	FONT-WEIGHT: normal; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+H5 {
+	FONT-WEIGHT: normal; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+H6 {
+	FONT-WEIGHT: normal; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+H1 {
+	FONT-SIZE: 42pt
+}
+H2 {
+	FONT-SIZE: 36pt
+}
+H3 {
+	FONT-SIZE: 28pt
+}
+H4 {
+	FONT-SIZE: 20pt
+}
+H5 {
+	FONT-SIZE: 20pt
+}
+H6 {
+	FONT-SIZE: 20pt
+}
+UL {
+	LIST-STYLE-TYPE: none; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+LI {
+	LIST-STYLE-TYPE: none; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+A {
+	TEXT-DECORATION: none
+}
+.fl-hbox {
+	-webkit-box-orient: horizontal; -moz-box-orient: horizontal; box-orient: horizontal
+}
+.fl-vbox {
+	-webkit-box-orient: vertical; -moz-box-orient: vertical; box-orient: vertical
+}
+.fl-center {
+	-webkit-box-pack: center; -moz-box-pack: center; -ms-flex-pack: center; box-pack: center
+}
+.fl-display-flex {
+	DISPLAY: flex
+}
+.flip-button:before {
+	CONTENT: "?"
+}
+.flip-button {
+	CURSOR: pointer; FONT-SIZE: 32px; FONT-FAMILY: "Flipicons"; COLOR: #999; LINE-HEIGHT: 32px; text-shadow: none
+}
+.flip-button:hover {
+	COLOR: #666
+}
+.getfbui-iframe {
+	BORDER-LEFT-WIDTH: 0px; BOX-SIZING: border-box; HEIGHT: 490px; BORDER-RIGHT-WIDTH: 0px; WIDTH: 490px; BORDER-BOTTOM-WIDTH: 0px; POSITION: fixed; BORDER-TOP-WIDTH: 0px
+}
+
+@media Unknown    
+{
+.getfbui-iframe {
+	HEIGHT: 340px; WIDTH: 300px
+}
+    }
+.page {
+	MARGIN-BOTTOM: 20px; HEIGHT: 100%; WIDTH: 100%; POSITION: relative; BACKGROUND-COLOR: #f7f7f7
+}
+.header {
+	RIGHT: 32px; LEFT: 32px; TOP: 10px
+}
+.columns-2.page .header {
+	HEIGHT: 44px; RIGHT: 24px; LEFT: 24px; TOP: 5px
+}
+.columns-3.page .header {
+	HEIGHT: 44px; RIGHT: 24px; LEFT: 24px; TOP: 5px
+}
+.columns-2.page .header .tagline {
+	FONT-SIZE: 24px; FONT-WEIGHT: 300; TEXT-ALIGN: left; LINE-HEIGHT: 48px
+}
+.columns-3.page .header .tagline {
+	FONT-SIZE: 24px; FONT-WEIGHT: 300; TEXT-ALIGN: left; LINE-HEIGHT: 48px
+}
+.columns-2.page .header .guide-button {
+	TOP: 6px
+}
+.columns-3.page .header .guide-button {
+	TOP: 6px
+}
+.columns-4.page .header {
+	TOP: 8px
+}
+.columns-5.page .header {
+	TOP: 8px
+}
+.columns-4.page .header .tagline {
+	FONT-SIZE: 30px; FONT-WEIGHT: 300; LINE-HEIGHT: 48px
+}
+.columns-5.page .header .tagline {
+	FONT-SIZE: 30px; FONT-WEIGHT: 300; LINE-HEIGHT: 48px
+}
+.photo.page {
+	BACKGROUND-COLOR: #333
+}
+.blackHeadlines H2 A {
+	TEXT-DECORATION: none; COLOR: black
+}
+.blackHeadlines H3 A {
+	TEXT-DECORATION: none; COLOR: black
+}
+.blackHeadlines H4 A {
+	TEXT-DECORATION: none; COLOR: black
+}
+.blackHeadlines H5 A {
+	TEXT-DECORATION: none; COLOR: black
+}
+.blackHeadlines A:hover {
+	COLOR: #4e4e4e
+}
+.blackHeadlines A:active {
+	COLOR: black
+}
+.whiteHeadlines {
+	text-shadow: 1px 1px 6px #bbb
+}
+.whiteHeadlines H2 A {
+	TEXT-DECORATION: none; COLOR: white
+}
+.whiteHeadlines H3 A {
+	TEXT-DECORATION: none; COLOR: white
+}
+.whiteHeadlines H4 A {
+	TEXT-DECORATION: none; COLOR: white
+}
+.whiteHeadlines H5 A {
+	TEXT-DECORATION: none; COLOR: white
+}
+.whiteHeadlines A:hover {
+	text-shadow: 1px 1px 6px #888
+}
+.whiteHeadlines A:active {
+	COLOR: white; text-shadow: 1px 1px 6px #666
+}
+.backgroundCoverCenter {
+	BACKGROUND-POSITION: center center; background-size: cover
+}
+.attribution H5 A:hover {
+	TEXT-DECORATION: underline
+}
+[role=link] {
+	CURSOR: pointer
+}
+.gradient {
+	HEIGHT: 50%; WIDTH: 100%; POSITION: absolute; BOTTOM: 0px
+}
+.header {
+	HEIGHT: 54px; BORDER-BOTTOM: #ccc 1px solid; POSITION: absolute; TEXT-ALIGN: center
+}
+.header .tagline {
+	FONT-SIZE: 36px; FONT-WEIGHT: 200; PADDING-BOTTOM: 4px; TEXT-ALIGN: left; PADDING-TOP: 4px; PADDING-LEFT: 0px; LINE-HEIGHT: 48px; PADDING-RIGHT: 0px
+}
+.header .author-name {
+	COLOR: #a9a8a8
+}
+.header .share-button {
+	FONT-SIZE: 18px; RIGHT: 0px; POSITION: absolute; FONT-WEIGHT: 300; PADDING-BOTTOM: 6px; PADDING-TOP: 6px; PADDING-LEFT: 14px; TOP: 6px; PADDING-RIGHT: 14px; border-radius: 0
+}
+.footer {
+	BORDER-TOP: #ccc 1px solid; RIGHT: 24px; POSITION: absolute; PADDING-BOTTOM: 20px; PADDING-TOP: 10px; LEFT: 24px; LINE-HEIGHT: 20px; BOTTOM: 0px
+}
+.footer .tagline {
+	FLOAT: left; PADDING-BOTTOM: 4px; PADDING-TOP: 4px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+.footer .author-name {
+	COLOR: #a9a8a8
+}
+.footer .get-flipboard-button {
+	CURSOR: pointer; TEXT-DECORATION: none; FLOAT: right; COLOR: white; PADDING-BOTTOM: 4px; PADDING-TOP: 4px; PADDING-LEFT: 14px; DISPLAY: block; PADDING-RIGHT: 14px; BACKGROUND-COLOR: #a9a8a8; border-radius: 3px
+}
+.title {
+	MARGIN-BOTTOM: 20px; text-rendering: optimizeLegibility
+}
+.title-inline {
+	MARGIN-BOTTOM: 20px; text-rendering: optimizeLegibility
+}
+.title .headline-48 {
+	FONT-SIZE: 48px; POSITION: relative; FONT-WEIGHT: 200; LINE-HEIGHT: 50px; TOP: 4px
+}
+.title-inline .headline-48 {
+	FONT-SIZE: 48px; POSITION: relative; FONT-WEIGHT: 200; LINE-HEIGHT: 50px; TOP: 4px
+}
+.title .headline-36 {
+	FONT-SIZE: 36px; POSITION: relative; FONT-WEIGHT: 300; LINE-HEIGHT: 40px; TOP: 3px
+}
+.title-inline .headline-36 {
+	FONT-SIZE: 36px; POSITION: relative; FONT-WEIGHT: 300; LINE-HEIGHT: 40px; TOP: 3px
+}
+.title .headline-24 {
+	FONT-SIZE: 25px; POSITION: relative; FONT-WEIGHT: 400; LINE-HEIGHT: 30px; TOP: 1px
+}
+.title-inline .headline-24 {
+	FONT-SIZE: 25px; POSITION: relative; FONT-WEIGHT: 400; LINE-HEIGHT: 30px; TOP: 1px
+}
+.title H2 A {
+	TEXT-DECORATION: none; COLOR: black
+}
+.title-inline H2 A {
+	TEXT-DECORATION: none; COLOR: black
+}
+.title H3 A {
+	TEXT-DECORATION: none; COLOR: black
+}
+.title-inline H3 A {
+	TEXT-DECORATION: none; COLOR: black
+}
+.title H4 A {
+	TEXT-DECORATION: none; COLOR: black
+}
+.title-inline H4 A {
+	TEXT-DECORATION: none; COLOR: black
+}
+.title H5 A {
+	TEXT-DECORATION: none; COLOR: black
+}
+.title-inline H5 A {
+	TEXT-DECORATION: none; COLOR: black
+}
+.title A:hover {
+	COLOR: #4e4e4e
+}
+.title-inline A:hover {
+	COLOR: #4e4e4e
+}
+.title A:active {
+	COLOR: black
+}
+.title-inline A:active {
+	COLOR: black
+}
+.top-padding.title > .headline {
+	PADDING-TOP: 25px
+}
+.top-padding.titletext .title-inline > .headline {
+	PADDING-TOP: 25px
+}
+.largemargin {
+	MARGIN-BOTTOM: 70px
+}
+.item.status {
+	BACKGROUND-COLOR: #eae4e2
+}
+.status-text {
+	MARGIN-BOTTOM: 20px; FONT-SIZE: 16px; FONT-WEIGHT: normal; LINE-HEIGHT: 20px
+}
+.status-entry {
+	OVERFLOW: hidden; POSITION: relative; MARGIN: 20px 20px 19px
+}
+.status-hrule {
+	HEIGHT: 1px; MARGIN-LEFT: 20px; BACKGROUND-COLOR: #c5c2c2; MARGIN-RIGHT: 20px
+}
+.gridline {
+	POSITION: absolute; BACKGROUND-COLOR: #ccc
+}
+.titletext {
+	OVERFLOW: hidden
+}
+.attribution {
+	POSITION: relative
+}
+.attribution .dateCreated {
+	COLOR: #8e8e8e
+}
+.attribution .avatar {
+	OVERFLOW: hidden; HEIGHT: 35px; WIDTH: 35px; POSITION: absolute; BACKGROUND-POSITION: center center; LEFT: 0px; TOP: 2px; background-size: cover
+}
+.attribution .avatar:hover {
+	OUTLINE-WIDTH: 1px; OUTLINE-STYLE: solid; OUTLINE-COLOR: #aaa; outline-offset: -1px
+}
+.attribution .service {
+	HEIGHT: 12px; WIDTH: 12px; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: center center; MARGIN: 0px 5px 0px 0px; DISPLAY: inline-block; background-size: 100% 100%
+}
+.attribution .flipboard.service {
+	BACKGROUND-IMAGE: url(http://cdn.flipboard.com/serviceIcons/v2/social-icon-flipboard-24.png)
+}
+.attribution .twitter.service {
+	BACKGROUND-IMAGE: url(http://cdn.flipboard.com/serviceIcons/v2/social-icon-twitter-24.png)
+}
+.attribution .facebook.service {
+	BACKGROUND-IMAGE: url(http://cdn.flipboard.com/serviceIcons/v2/social-icon-facebook-24.png)
+}
+.attribution .googleplus.service {
+	BACKGROUND-IMAGE: url(http://cdn.flipboard.com/serviceIcons/v2/social-icon-googleplus-24.png)
+}
+.attribution .instagram.service {
+	BACKGROUND-IMAGE: url(http://cdn.flipboard.com/serviceIcons/v2/social-icon-instagram-24.png)
+}
+.attribution .flickr.service {
+	BACKGROUND-IMAGE: url(http://cdn.flipboard.com/serviceIcons/v2/social-icon-flickr-24.png)
+}
+.attribution .tumblr.service {
+	BACKGROUND-IMAGE: url(http://cdn.flipboard.com/serviceIcons/v2/social-icon-tumblr-24.png)
+}
+.attribution .soundcloud.service {
+	BACKGROUND-IMAGE: url(http://cdn.flipboard.com/serviceIcons/v2/social-icon-soundcloud-24.png)
+}
+.attribution .youtube.service {
+	BACKGROUND-IMAGE: url(http://cdn.flipboard.com/serviceIcons/v2/social-icon-youtube-24.png)
+}
+.attribution .weibo.service {
+	BACKGROUND-IMAGE: url(http://cdn.flipboard.com/serviceIcons/v2/social-icon-weibo-24.png)
+}
+.attribution .renren.service {
+	BACKGROUND-IMAGE: url(http://cdn.flipboard.com/serviceIcons/v2/social-icon-renren-24.png)
+}
+.attribution .tcweibo.service {
+	BACKGROUND-IMAGE: url(http://cdn.flipboard.com/serviceIcons/v2/social-icon-tcweibo-24.png)
+}
+.attribution .like {
+	FONT-SIZE: 16px; FONT-FAMILY: "Flipicons"; PADDING-LEFT: 6px; DISPLAY: inline-block; LINE-HEIGHT: 20px; text-shadow: none
+}
+.attribution .comment {
+	FONT-SIZE: 16px; FONT-FAMILY: "Flipicons"; PADDING-LEFT: 6px; DISPLAY: inline-block; LINE-HEIGHT: 20px; text-shadow: none
+}
+.attribution .share {
+	FONT-SIZE: 16px; FONT-FAMILY: "Flipicons"; PADDING-LEFT: 6px; DISPLAY: inline-block; LINE-HEIGHT: 20px; text-shadow: none
+}
+.attribution .thumbsup {
+	FONT-SIZE: 16px; FONT-FAMILY: "Flipicons"; PADDING-LEFT: 6px; DISPLAY: inline-block; LINE-HEIGHT: 20px; text-shadow: none
+}
+.attribution .star {
+	FONT-SIZE: 16px; FONT-FAMILY: "Flipicons"; PADDING-LEFT: 6px; DISPLAY: inline-block; LINE-HEIGHT: 20px; text-shadow: none
+}
+.attribution .notes {
+	FONT-SIZE: 16px; FONT-FAMILY: "Flipicons"; PADDING-LEFT: 6px; DISPLAY: inline-block; LINE-HEIGHT: 20px; text-shadow: none
+}
+.attribution .plus {
+	FONT-SIZE: 16px; FONT-FAMILY: "Flipicons"; PADDING-LEFT: 6px; DISPLAY: inline-block; LINE-HEIGHT: 20px; text-shadow: none
+}
+.attribution .like SPAN {
+	PADDING-LEFT: 6px
+}
+.attribution .comment SPAN {
+	PADDING-LEFT: 6px
+}
+.attribution .share SPAN {
+	PADDING-LEFT: 6px
+}
+.attribution .thumbsup SPAN {
+	PADDING-LEFT: 6px
+}
+.attribution .star SPAN {
+	PADDING-LEFT: 6px
+}
+.attribution .notes SPAN {
+	PADDING-LEFT: 6px
+}
+.attribution .plus SPAN {
+	PADDING-LEFT: 6px
+}
+.attribution .like:before {
+	CONTENT: "?"
+}
+.attribution .thumbsup:before {
+	CONTENT: "?"
+}
+.attribution .star:before {
+	CONTENT: "?"
+}
+.attribution .comment:before {
+	CONTENT: "?"
+}
+.attribution .notes:before {
+	CONTENT: "?"
+}
+.attribution .share:before {
+	CONTENT: "?"
+}
+.attribution .plus:before {
+	CONTENT: "+"
+}
+.attribution H5 {
+	OVERFLOW: hidden; FONT-SIZE: 16px; WHITE-SPACE: nowrap; TEXT-OVERFLOW: ellipsis; MARGIN-LEFT: 45px; LINE-HEIGHT: 20px; MARGIN-RIGHT: 48px
+}
+.attribution H6 {
+	OVERFLOW: hidden; FONT-SIZE: 16px; WHITE-SPACE: nowrap; TEXT-OVERFLOW: ellipsis; MARGIN-LEFT: 45px; LINE-HEIGHT: 20px; MARGIN-RIGHT: 48px
+}
+.attribution H6 {
+	MIN-HEIGHT: 20px
+}
+.attribution .flip-button {
+	RIGHT: 0px; POSITION: absolute; TOP: 0px
+}
+.video-play-button {
+	CURSOR: pointer; HEIGHT: 101px; WIDTH: 100px; BACKGROUND: url(https://philz.flipboard.com/ss/images/video-play-button-55ce3d3f.png) no-repeat 0px 0px
+}
+.video .video-play-button {
+	POSITION: absolute; MARGIN-LEFT: -50px; LEFT: 50%; MARGIN-TOP: -50px; TOP: 50%
+}
+.noavatar.attribution H5 {
+	MARGIN-LEFT: 0px
+}
+.noavatar.attribution H6 {
+	MARGIN-LEFT: 0px
+}
+.noavatar.attribution .flip-button {
+	TOP: 0px
+}
+.title-inline .nomargin.attribution {
+	MARGIN-BOTTOM: 0px
+}
+.title-inline .noavatar.attribution {
+	MARGIN-BOTTOM: 0px
+}
+.status .attribution .dateCreated {
+	DISPLAY: block
+}
+.status .attribution A {
+	COLOR: black
+}
+.photo .attribution {
+	RIGHT: 0px; POSITION: absolute; LEFT: 0px; BOTTOM: 0px
+}
+.video .attribution {
+	RIGHT: 0px; POSITION: absolute; LEFT: 0px; BOTTOM: 0px
+}
+.titleimage .title-inline {
+	MARGIN-BOTTOM: 5px; RIGHT: 25px; POSITION: absolute; COLOR: white; LEFT: 15px; BOTTOM: 0px; text-shadow: 1px 1px 6px #bbb
+}
+.titleimage .title-inline H2 A {
+	TEXT-DECORATION: none; COLOR: white
+}
+.titleimage .title-inline H3 A {
+	TEXT-DECORATION: none; COLOR: white
+}
+.titleimage .title-inline H4 A {
+	TEXT-DECORATION: none; COLOR: white
+}
+.titleimage .title-inline H5 A {
+	TEXT-DECORATION: none; COLOR: white
+}
+.titleimage .title-inline A:hover {
+	text-shadow: 1px 1px 6px #888
+}
+.titleimage .title-inline A:active {
+	COLOR: white; text-shadow: 1px 1px 6px #666
+}
+.no-attribution {
+	HEIGHT: 18px
+}
+.postattribution .attribution {
+	RIGHT: 0px; POSITION: absolute; LEFT: 0px
+}
+.postattribution .attribution H2 A {
+	TEXT-DECORATION: none; COLOR: black
+}
+.postattribution .attribution H3 A {
+	TEXT-DECORATION: none; COLOR: black
+}
+.postattribution .attribution H4 A {
+	TEXT-DECORATION: none; COLOR: black
+}
+.postattribution .attribution H5 A {
+	TEXT-DECORATION: none; COLOR: black
+}
+.postattribution .attribution A:hover {
+	COLOR: #4e4e4e
+}
+.postattribution .attribution A:active {
+	COLOR: black
+}
+.magazine {
+	BACKGROUND-POSITION: center center; background-size: cover
+}
+.title-magazine {
+	MARGIN: 10px; text-shadow: 1px 1px 6px #bbb
+}
+.title-magazine H2 A {
+	TEXT-DECORATION: none; COLOR: white
+}
+.title-magazine H3 A {
+	TEXT-DECORATION: none; COLOR: white
+}
+.title-magazine H4 A {
+	TEXT-DECORATION: none; COLOR: white
+}
+.title-magazine H5 A {
+	TEXT-DECORATION: none; COLOR: white
+}
+.title-magazine A:hover {
+	text-shadow: 1px 1px 6px #888
+}
+.title-magazine A:active {
+	COLOR: white; text-shadow: 1px 1px 6px #666
+}
+.magazine-attribution {
+	MARGIN: 10px
+}
+.magazine-attribution .avatar {
+	HEIGHT: 20px; WIDTH: 20px; POSITION: absolute; BACKGROUND-POSITION: center center; background-size: cover
+}
+.magazine-attribution H4 {
+	FONT-SIZE: 16px; COLOR: white; MARGIN-LEFT: 30px; LINE-HEIGHT: 20px
+}
+.title .attribution {
+	MARGIN-BOTTOM: 20px; MARGIN-TOP: 20px
+}
+.title-inline .attribution {
+	MARGIN-BOTTOM: 20px; MARGIN-TOP: 20px
+}
+.photo .attribution {
+	RIGHT: 20px; COLOR: white; LEFT: 20px; BOTTOM: 20px
+}
+.video .attribution {
+	RIGHT: 20px; COLOR: white; LEFT: 20px; BOTTOM: 20px
+}
+.photo .attribution A {
+	COLOR: white
+}
+.video .attribution A {
+	COLOR: white
+}
+.light.photo .attribution {
+	RIGHT: 20px; COLOR: black; LEFT: 20px; BOTTOM: 20px
+}
+.image-viewport {
+	BACKGROUND-COLOR: #e4e4e4
+}
+.photo {
+	BACKGROUND-COLOR: #e4e4e4
+}
+.video {
+	BACKGROUND-COLOR: #e4e4e4
+}
+.titleimage {
+	BACKGROUND-COLOR: #e4e4e4
+}
+.image-viewport .main-image {
+	RIGHT: 0px; POSITION: absolute; BACKGROUND-POSITION: center center; LEFT: 0px; TOP: 0px; BOTTOM: 0px; background-size: cover
+}
+.photo .main-image {
+	RIGHT: 0px; POSITION: absolute; BACKGROUND-POSITION: center center; LEFT: 0px; TOP: 0px; BOTTOM: 0px; background-size: cover
+}
+.video .main-image {
+	RIGHT: 0px; POSITION: absolute; BACKGROUND-POSITION: center center; LEFT: 0px; TOP: 0px; BOTTOM: 0px; background-size: cover
+}
+.titleimage .main-image {
+	RIGHT: 0px; POSITION: absolute; BACKGROUND-POSITION: center center; LEFT: 0px; TOP: 0px; BOTTOM: 0px; background-size: cover
+}
+.main-image .photo-attribution {
+	OVERFLOW: hidden; FONT-SIZE: 10px; FONT-FAMILY: helvetica neue,helvetica,arial,sans-serif; WIDTH: auto; WHITE-SPACE: nowrap; RIGHT: 5px; TEXT-OVERFLOW: ellipsis; POSITION: absolute; TEXT-TRANSFORM: uppercase; COLOR: white; TEXT-ALIGN: right; LEFT: 5px; DISPLAY: block; BOTTOM: 3px
+}
+.excerpt {
+	OVERFLOW: hidden; FONT-SIZE: 16px; FONT-FAMILY: Georgia,serif; LINE-HEIGHT: 20px
+}
+.nobreaks.excerpt > P {
+	MARGIN: 1em 0px 0px 1em; DISPLAY: inline
+}
+.nobreaks.excerpt BR {
+	DISPLAY: none
+}
+.excerpt > * {
+	MARGIN: 20px 0px
+}
+.excerpt STRONG {
+	FONT-WEIGHT: normal
+}
+.excerpt B {
+	FONT-WEIGHT: normal
+}
+.excerpt-attribution A {
+	FONT-FAMILY: "HNC"; FONT-WEIGHT: 600; COLOR: black
+}
+.excerpt-attribution A:hover {
+	TEXT-DECORATION: underline; COLOR: #4e4e4e
+}
+.excerpt .excerpt-attribution {
+	FONT-SIZE: 14px; text-rendering: optimizeLegibility
+}
+.inset-content {
+	PADDING-BOTTOM: 36px; PADDING-TOP: 56px; PADDING-LEFT: 24px; PADDING-RIGHT: 24px
+}
+#templates > * {
+	HEIGHT: 100%; WIDTH: 100%
+}
+#templates * {
+	
+}
+[data-fl-image-appear] {
+	opacity: 0; -webkit-backface-visibility: hidden; backface-visibility: hidden
+}
+[data-fl-image-appearing] {
+	-webkit-backface-visibility: hidden; backface-visibility: hidden; -webkit-animation: fade-in .4s ease-out; -moz-animation: fade-in .4s ease-out; -ms-animation: fade-in .4s ease-out; animation: fade-in .4s ease-out; -webkit-animation-fill-mode: forwards; -moz-animation-fill-mode: forwards; -ms-animation-fill-mode: forwards; animation-fill-mode: forwards
+}
+.transitioning [data-fl-image-appearing] {
+	-webkit-animation-name: none; -moz-animation-name: none; -ms-animation-name: none; animation-name: none
+}
+.scrubber {
+	CURSOR: default; RIGHT: 16px; POSITION: fixed; TOP: 0px; opacity: 0; -webkit-transition-property: opacity; -moz-transition-property: opacity; -ms-transition-property: opacity; transition-property: opacity; -webkit-transition-duration: .2s; -moz-transition-duration: .2s; -ms-transition-duration: .2s; transition-duration: .2s; -webkit-transform: translate3d(0,0,1800px); -moz-transform: translate3d(0,0,1800px); -ms-transform: translate3d(0,0,1800px); transform: translate3d(0,0,1800px); -webkit-user-select: none; -ms-user-select: none; -moz-user-select: none; user-select: none
+}
+.showing.scrubber {
+	Z-INDEX: 99; opacity: 1
+}
+.horizontal .scrubber {
+	RIGHT: auto
+}
+.scrubber .dot {
+	HEIGHT: 22px; WIDTH: 22px; POSITION: relative; DISPLAY: block; -webkit-transform: translate3d(0,0,1800px); -moz-transform: translate3d(0,0,1800px); -ms-transform: translate3d(0,0,1800px); transform: translate3d(0,0,1800px)
+}
+.scrubber .dot > B {
+	HEIGHT: 6px; WIDTH: 6px; BACKGROUND: #c0c0c0; POSITION: absolute; MARGIN-LEFT: -3px; LEFT: 50%; MARGIN-TOP: -3px; DISPLAY: block; TOP: 50%; border-radius: 80%; -webkit-transition-property: -webkit-transform,-moz-transform,-ms-transform,transform,opacity; -moz-transition-property: -webkit-transform,-moz-transform,-ms-transform,transform,opacity; -ms-transition-property: -webkit-transform,-moz-transform,-ms-transform,transform,opacity; transition-property: -webkit-transform,-moz-transform,-ms-transform,transform,opacity; -webkit-transition-duration: .2s; -moz-transition-duration: .2s; -ms-transition-duration: .2s; transition-duration: .2s; -webkit-transition-timing-function: ease-out; -moz-transition-timing-function: ease-out; -ms-transition-timing-function: ease-out; transition-timing-function: ease-out
+}
+.photo .scrubber .dot > B {
+	HEIGHT: 6px; WIDTH: 6px; MARGIN-LEFT: -3px; MARGIN-TOP: -3px
+}
+.horizontal .scrubber .dot {
+	POSITION: relative; DISPLAY: inline-block
+}
+.scrubber .dot:hover > B {
+	-webkit-transform: scale(2.4,2.4); -moz-transform: scale(2.4,2.4); -ms-transform: scale(2.4,2.4); transform: scale(2.4,2.4)
+}
+.scrubber .selected.dot > B {
+	BACKGROUND: #3e3e3e
+}
+.fl-button {
+	CURSOR: pointer; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid; BACKGROUND: #fafafa; BORDER-BOTTOM: #ccc 1px solid; COLOR: #555; PADDING-BOTTOM: 0px; TEXT-ALIGN: center; PADDING-TOP: 0px; FONT: 16px HNC; PADDING-LEFT: 8px; MARGIN: 0px; BORDER-LEFT: #ccc 1px solid; DISPLAY: inline-block; PADDING-RIGHT: 8px; text-shadow: 0 1px 0 #fff; border-radius: 2px; -webkit-appearance: none; box-shadow: 0 1px 0 rgba(255,255,255,0.5),inset 0 1px 0 rgba(255,255,255,0.5)
+}
+.fl-button:hover {
+	BACKGROUND: #fff; COLOR: #222
+}
+.fl-dark.fl-button {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: ; text-shadow: 0 1px 0 #000; box-shadow: 0 1px 0 rgba(0,0,0,0.4),inset 0 1px 0 rgba(0,0,0,0.4)
+}
+.fl-dark.fl-button:hover {
+	COLOR: #fff
+}
+.fl-mini.fl-button {
+	FONT-SIZE: 14px; HEIGHT: 26px; FONT-WEIGHT: 600; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 6px; LINE-HEIGHT: 26px; PADDING-RIGHT: 6px
+}
+.fl-done.fl-button {
+	BORDER-TOP: #235a94 1px solid; BORDER-RIGHT: #235a94 1px solid; BACKGROUND: #2992d4; BORDER-BOTTOM: #235a94 1px solid; COLOR: #fff; BORDER-LEFT: #235a94 1px solid; text-shadow: 0 -1px 0 rgba(0,0,0,0.4); box-shadow: 0 1px 0 #fff,inset 0 1px 0 rgba(255,255,255,0.2)
+}
+.fl-dark.fl-done.fl-button {
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.4); box-shadow: 0 1px 0 rgba(255,255,255,0.3),inset 0 1px 0 rgba(255,255,255,0.2)
+}
+.fl-done.fl-button:hover {
+	BACKGROUND: #42b4e7
+}
+INPUT[type='text'].fl-field {
+	COLOR: #262626; OUTLINE-WIDTH: 0px; PADDING-BOTTOM: 8px; PADDING-TOP: 8px; FONT: 16px HNC; PADDING-LEFT: 8px; MARGIN: 0px 0px 12px; PADDING-RIGHT: 8px; border-radius: 2px; -webkit-appearance: none; box-shadow: inset 0 1px 2px rgba(0,0,0,0.2)
+}
+INPUT[type='email'].fl-field {
+	COLOR: #262626; OUTLINE-WIDTH: 0px; PADDING-BOTTOM: 8px; PADDING-TOP: 8px; FONT: 16px HNC; PADDING-LEFT: 8px; MARGIN: 0px 0px 12px; PADDING-RIGHT: 8px; border-radius: 2px; -webkit-appearance: none; box-shadow: inset 0 1px 2px rgba(0,0,0,0.2)
+}
+INPUT[type='date'].fl-field {
+	COLOR: #262626; OUTLINE-WIDTH: 0px; PADDING-BOTTOM: 8px; PADDING-TOP: 8px; FONT: 16px HNC; PADDING-LEFT: 8px; MARGIN: 0px 0px 12px; PADDING-RIGHT: 8px; border-radius: 2px; -webkit-appearance: none; box-shadow: inset 0 1px 2px rgba(0,0,0,0.2)
+}
+INPUT[type='password'].fl-field {
+	COLOR: #262626; OUTLINE-WIDTH: 0px; PADDING-BOTTOM: 8px; PADDING-TOP: 8px; FONT: 16px HNC; PADDING-LEFT: 8px; MARGIN: 0px 0px 12px; PADDING-RIGHT: 8px; border-radius: 2px; -webkit-appearance: none; box-shadow: inset 0 1px 2px rgba(0,0,0,0.2)
+}
+SELECT.fl-field {
+	COLOR: #262626; OUTLINE-WIDTH: 0px; PADDING-BOTTOM: 8px; PADDING-TOP: 8px; FONT: 16px HNC; PADDING-LEFT: 8px; MARGIN: 0px 0px 12px; PADDING-RIGHT: 8px; border-radius: 2px; -webkit-appearance: none; box-shadow: inset 0 1px 2px rgba(0,0,0,0.2)
+}
+TEXTAREA.fl-field {
+	COLOR: #262626; OUTLINE-WIDTH: 0px; PADDING-BOTTOM: 8px; PADDING-TOP: 8px; FONT: 16px HNC; PADDING-LEFT: 8px; MARGIN: 0px 0px 12px; PADDING-RIGHT: 8px; border-radius: 2px; -webkit-appearance: none; box-shadow: inset 0 1px 2px rgba(0,0,0,0.2)
+}
+INPUT[type='text'].xl.fl-field {
+	BORDER-LEFT-WIDTH: 2px; FONT-SIZE: 26px; BORDER-RIGHT-WIDTH: 2px; BORDER-BOTTOM-WIDTH: 2px; PADDING-BOTTOM: 12px; PADDING-TOP: 12px; PADDING-LEFT: 10px; MARGIN: 0px 0px 20px; PADDING-RIGHT: 10px; BORDER-TOP-WIDTH: 2px; border-radius: 4px; box-shadow: inset 0 2px 4px rgba(0,0,0,0.2)
+}
+INPUT[type='date'].xl.fl-field {
+	BORDER-LEFT-WIDTH: 2px; FONT-SIZE: 26px; BORDER-RIGHT-WIDTH: 2px; BORDER-BOTTOM-WIDTH: 2px; PADDING-BOTTOM: 12px; PADDING-TOP: 12px; PADDING-LEFT: 10px; MARGIN: 0px 0px 20px; PADDING-RIGHT: 10px; BORDER-TOP-WIDTH: 2px; border-radius: 4px; box-shadow: inset 0 2px 4px rgba(0,0,0,0.2)
+}
+INPUT[type='password'].xl.fl-field {
+	BORDER-LEFT-WIDTH: 2px; FONT-SIZE: 26px; BORDER-RIGHT-WIDTH: 2px; BORDER-BOTTOM-WIDTH: 2px; PADDING-BOTTOM: 12px; PADDING-TOP: 12px; PADDING-LEFT: 10px; MARGIN: 0px 0px 20px; PADDING-RIGHT: 10px; BORDER-TOP-WIDTH: 2px; border-radius: 4px; box-shadow: inset 0 2px 4px rgba(0,0,0,0.2)
+}
+TEXTAREA.xl.fl-field {
+	BORDER-LEFT-WIDTH: 2px; FONT-SIZE: 26px; BORDER-RIGHT-WIDTH: 2px; BORDER-BOTTOM-WIDTH: 2px; PADDING-BOTTOM: 12px; PADDING-TOP: 12px; PADDING-LEFT: 10px; MARGIN: 0px 0px 20px; PADDING-RIGHT: 10px; BORDER-TOP-WIDTH: 2px; border-radius: 4px; box-shadow: inset 0 2px 4px rgba(0,0,0,0.2)
+}
+INPUT[type='text'].locked.fl-field {
+	BACKGROUND: #ececec; COLOR: #999
+}
+INPUT[type='date'].locked.fl-field {
+	BACKGROUND: #ececec; COLOR: #999
+}
+INPUT[type='email'].locked.fl-field {
+	BACKGROUND: #ececec; COLOR: #999
+}
+INPUT[type='password'].locked.fl-field {
+	BACKGROUND: #ececec; COLOR: #999
+}
+TEXTAREA.locked.fl-field {
+	BACKGROUND: #ececec; COLOR: #999
+}
+SELECT.fl-dropdown {
+	BORDER-TOP: #afafaf 1px solid; BORDER-RIGHT: #afafaf 1px solid; BACKGROUND: #e6e6e6; BORDER-BOTTOM: #afafaf 1px solid; COLOR: #262626; PADDING-BOTTOM: 8px; PADDING-TOP: 8px; FONT: 16px HNC; PADDING-LEFT: 8px; MARGIN: 0px 0px 12px; BORDER-LEFT: #afafaf 1px solid; PADDING-RIGHT: 8px; background-size: 32px 10px,cover; border-radius: 2px; -webkit-appearance: none; box-shadow: inset 0 1px 0 rgba(255,255,255,0.6),0 1px 0 #fff
+}
+
+@media Unknown    
+{
+SELECT.fl-dropdown {
+	BACKGROUND: #e6e6e6; background-size: 32px 10px,cover
+}
+    }
+.fl-modal-loading {
+	RIGHT: 0px; POSITION: absolute; LEFT: 0px; Z-INDEX: 1000; DISPLAY: none; TOP: 0px; BOTTOM: 0px; opacity: 1; -webkit-transition: opacity ease-out 1s; -moz-transition: opacity ease-out 1s; -ms-transition: opacity ease-out 1s; transition: opacity ease-out 1s
+}
+.fadeOut.fl-modal-loading {
+	opacity: 0
+}
+.fl-modal-loading-inner {
+	WIDTH: 100%; POSITION: absolute; TEXT-ALIGN: center; MARGIN-TOP: -21px; TOP: 50%
+}
+.fl-modal-loading-msg {
+	BOX-SIZING: border-box; FONT-SIZE: 20px; HEIGHT: 42px; COLOR: #fff; PADDING-BOTTOM: 13px; PADDING-TOP: 13px; PADDING-LEFT: 32px; MARGIN: 0px auto; DISPLAY: inline-block; PADDING-RIGHT: 12px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; border-radius: 6px
+}
+.fl-modal-loading-msg SPAN {
+	POSITION: relative; PADDING-LEFT: 10px; TOP: -4px
+}
+.noSpinny.fl-modal-loading-msg {
+	PADDING-LEFT: 0px
+}
+.alertbox {
+	FONT-SIZE: 20px; MAX-WIDTH: 85%; HEIGHT: auto; WIDTH: 350px; POSITION: relative; FONT-WEIGHT: 400; COLOR: #666; PADDING-BOTTOM: 12px; PADDING-TOP: 21px; PADDING-LEFT: 21px; MARGIN: 0px auto; MIN-HEIGHT: 173px; PADDING-RIGHT: 12px; MAX-HEIGHT: 85%; BACKGROUND-COLOR: #fff; border-radius: 3px
+}
+.alertbox .title {
+	MARGIN-BOTTOM: 24px; FONT-WEIGHT: 700; COLOR: #000; DISPLAY: block
+}
+.alertbox P {
+	MARGIN: 0px
+}
+.alertbox .button-wrap {
+	BOX-SIZING: border-box; WIDTH: 100%; TEXT-ALIGN: right; MARGIN-TOP: 32px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box
+}
+.alertbox .fl-button {
+	PADDING-BOTTOM: 8px; PADDING-TOP: 8px; FONT: 300 20px HNC; PADDING-LEFT: 21px; MARGIN-LEFT: 12px; PADDING-RIGHT: 21px
+}
+.alertbox .close {
+	HEIGHT: 20px; WIDTH: 20px; BACKGROUND-IMAGE: url(http://www.flipboard.com/static/img/sprites-retina-s4dfdc8ca88.png); RIGHT: 20px; POSITION: absolute; BACKGROUND-POSITION: 0px -1184px; TOP: 20px; background-size: 202px auto; -webkit-background-size: 202px auto; -moz-background-size: 202px auto; -o-background-size: 202px auto
+}
+.fl-animating.alertbox {
+	-webkit-transition-property: -webkit-transform,-moz-transform,-ms-transform,transform,opacity; -moz-transition-property: -webkit-transform,-moz-transform,-ms-transform,transform,opacity; -ms-transition-property: -webkit-transform,-moz-transform,-ms-transform,transform,opacity; transition-property: -webkit-transform,-moz-transform,-ms-transform,transform,opacity; -webkit-transition-duration: .2s; -moz-transition-duration: .2s; -ms-transition-duration: .2s; transition-duration: .2s; -webkit-transition-timing-function: ease-out; -moz-transition-timing-function: ease-out; -ms-transition-timing-function: ease-out; transition-timing-function: ease-out
+}
+.fl-hidden.alertbox {
+	opacity: 0; -webkit-transform: scale(0.97,0.97); -moz-transform: scale(0.97,0.97); -ms-transform: scale(0.97,0.97); transform: scale(0.97,0.97)
+}
+.fl-visible.alertbox {
+	opacity: 1
+}
+.fl-settings {
+	HEIGHT: 100%; BORDER-RIGHT: #222 1px solid; WIDTH: 320px; BACKGROUND: #262626; POSITION: fixed; COLOR: #fff; PADDING-BOTTOM: 10px; PADDING-TOP: 10px; PADDING-LEFT: 10px; LEFT: 0px; Z-INDEX: 999; TOP: 0px; PADDING-RIGHT: 10px
+}
+.fl-animating.fl-settings {
+	-webkit-transition-property: -webkit-transform,-moz-transform,-ms-transform,transform,opacity; -moz-transition-property: -webkit-transform,-moz-transform,-ms-transform,transform,opacity; -ms-transition-property: -webkit-transform,-moz-transform,-ms-transform,transform,opacity; transition-property: -webkit-transform,-moz-transform,-ms-transform,transform,opacity; -webkit-transition-duration: .35s; -moz-transition-duration: .35s; -ms-transition-duration: .35s; transition-duration: .35s; -webkit-transition-timing-function: ease-in-out; -moz-transition-timing-function: ease-in-out; -ms-transition-timing-function: ease-in-out; transition-timing-function: ease-in-out
+}
+.fl-hidden.fl-settings {
+	-webkit-transform: translate3d(-100%,0,0); -moz-transform: translate3d(-100%,0,0); -ms-transform: translate3d(-100%,0,0); transform: translate3d(-100%,0,0)
+}
+.fl-settings H3 {
+	MARGIN-BOTTOM: 20px; FONT-SIZE: 34px; PADDING-BOTTOM: 5px
+}
+.fl-settings H3 .fl-button {
+	FLOAT: right
+}
+.fl-settings H4 {
+	MARGIN-BOTTOM: 10px; FONT-SIZE: 22px; FONT-WEIGHT: 600; PADDING-BOTTOM: 3px
+}
+.fl-settings H6 {
+	FONT-SIZE: 16px; COLOR: #666; TEXT-ALIGN: center; MARGIN: 30px 0px
+}
+.fl-settings .fl-button {
+	PADDING-BOTTOM: 8px; PADDING-TOP: 8px; PADDING-LEFT: 10px; DISPLAY: inline-block; PADDING-RIGHT: 10px
+}
+.fl-setting-group {
+	MARGIN-BOTTOM: 10px; POSITION: relative; PADDING-BOTTOM: 10px
+}
+.fl-setting {
+	DISPLAY: table-row
+}
+.fl-setting LABEL {
+	PADDING-BOTTOM: 2px; PADDING-TOP: 2px; PADDING-LEFT: 0px; DISPLAY: table-cell; PADDING-RIGHT: 0px
+}
+.fl-setting .fl-setting-field {
+	PADDING-BOTTOM: 2px; PADDING-TOP: 2px; PADDING-LEFT: 0px; DISPLAY: table-cell; PADDING-RIGHT: 0px
+}
+.fl-setting LABEL {
+	FONT-SIZE: 16px; WIDTH: 100%; FONT-WEIGHT: 600; COLOR: #7d7d7d; MARGIN-RIGHT: 5px
+}
+.fl-setting .fl-setting-field {
+	TEXT-ALIGN: right
+}
+.fl-setting INPUT[type='text'] {
+	FONT-SIZE: 13px; BORDER-TOP: #ccc 1px solid; FONT-FAMILY: HNC; BORDER-RIGHT: #ccc 1px solid; BORDER-BOTTOM: #ccc 1px solid; COLOR: #666; PADDING-BOTTOM: 2px; TEXT-ALIGN: right; PADDING-TOP: 2px; PADDING-LEFT: 4px; BORDER-LEFT: #ccc 1px solid; PADDING-RIGHT: 4px
+}
+.fl-settings-buttons {
+	TEXT-ALIGN: right; MARGIN-TOP: 10px
+}
+.fl-settings-buttons .fl-settings-reset {
+	WIDTH: 100%
+}
+.guide-button {
+	BORDER-LEFT-WIDTH: 0px; CURSOR: pointer; HEIGHT: 32px; BORDER-RIGHT-WIDTH: 0px; WIDTH: 32px; BACKGROUND: url(https://philz.flipboard.com/ss/images/sidebar-gray-b39ff620.png) no-repeat 0px 0px; BORDER-BOTTOM-WIDTH: 0px; POSITION: absolute; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; LEFT: 0px; DISPLAY: none; TOP: 9px; PADDING-RIGHT: 0px; BORDER-TOP-WIDTH: 0px; -webkit-appearance: none
+}
+.guide-enabled .guide-button {
+	DISPLAY: block
+}
+.guide-button:active {
+	BACKGROUND-IMAGE: url(https://philz.flipboard.com/ss/images/sidebar-gray-down-9423b560.png)
+}
+.showing-guide .guide-button {
+	BACKGROUND-IMAGE: url(https://philz.flipboard.com/ss/images/sidebar-gray-down-9423b560.png)
+}
+.guide {
+	HEIGHT: 100%; WIDTH: 360px; BACKGROUND: #333; POSITION: absolute; COLOR: #fff; LEFT: 0px; TOP: 0px
+}
+.guide H2 {
+	FONT-SIZE: 42px; FONT-WEIGHT: 200; PADDING-BOTTOM: 20px; PADDING-TOP: 20px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+.guide .categories {
+	HEIGHT: 100%; WIDTH: 100%; OVERFLOW-Y: auto; POSITION: relative; PADDING-BOTTOM: 10px; PADDING-TOP: 10px; PADDING-LEFT: 10px; Z-INDEX: 2; PADDING-RIGHT: 10px
+}
+.showing-category-guide .guide .categories {
+	box-shadow: 0 0 20px rgba(0,0,0,0.8)
+}
+.guide LI.section {
+	CURSOR: pointer; FONT-SIZE: 26px; POSITION: relative; PADDING-BOTTOM: 10px; PADDING-TOP: 10px; PADDING-LEFT: 0px; DISPLAY: block; PADDING-RIGHT: 0px
+}
+.guide LI.section:after {
+	HEIGHT: 1px; WIDTH: 100%; POSITION: absolute; CONTENT: " "; LEFT: 0px; DISPLAY: block; BOTTOM: 0px
+}
+.guide LI.selected.section {
+	WIDTH: 370px; BACKGROUND: #222; PADDING-LEFT: 5px; LEFT: -10px; BORDER-LEFT: #c62711 5px solid
+}
+.guide .selected-category {
+	OVERFLOW: auto; HEIGHT: 100%; WIDTH: 360px; BACKGROUND: #262626; POSITION: absolute; LEFT: 360px; Z-INDEX: 1; TOP: 0px
+}
+.guide :first-child.selected-category {
+	LEFT: auto
+}
+.guide .selected-category LI {
+	POSITION: relative; PADDING-BOTTOM: 10px; PADDING-TOP: 10px; PADDING-LEFT: 10px; CLEAR: both; PADDING-RIGHT: 10px
+}
+.guide .selected-category LI:active {
+	BACKGROUND-COLOR: #222
+}
+.guide .selected-category LI:after {
+	HEIGHT: 1px; WIDTH: 340px; POSITION: absolute; CONTENT: " "; LEFT: 10px; DISPLAY: block; BOTTOM: 0px
+}
+.guide .selected-category LI A {
+	FONT-SIZE: 21px; HEIGHT: 50px; WIDTH: 100%; BACKGROUND-REPEAT: no-repeat; FONT-WEIGHT: 600; COLOR: #fff; PADDING-LEFT: 68px; DISPLAY: block; LINE-HEIGHT: 50px; background-size: 50px 50px
+}
+.guide .selected-category LI.brick {
+	HEIGHT: 100px; WIDTH: 100%
+}
+.guide .selected-category LI.brick:after {
+	DISPLAY: none
+}
+.guide .selected-category LI.brick A {
+	FONT-SIZE: 16px; HEIGHT: 100%; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; PADDING-LEFT: 5px; LINE-HEIGHT: 16px; PADDING-RIGHT: 5px; text-shadow: 0 1px 0 rgba(0,0,0,0.5); background-size: cover
+}
+.guide .selected-category LI.perrow-2.brick {
+	DISPLAY: none
+}
+.guide .selected-category LI.perrow-3.brick {
+	HEIGHT: 138px; WIDTH: 120px; FLOAT: left; CLEAR: none; DISPLAY: block
+}
+HTML.guide-enabled #main {
+	Z-INDEX: 3
+}
+BODY.fl-animating-guide #main {
+	-webkit-transition-property: -webkit-transform,-moz-transform,-ms-transform,transform,opacity; -moz-transition-property: -webkit-transform,-moz-transform,-ms-transform,transform,opacity; -ms-transition-property: -webkit-transform,-moz-transform,-ms-transform,transform,opacity; transition-property: -webkit-transform,-moz-transform,-ms-transform,transform,opacity; -webkit-transition-duration: .3s; -moz-transition-duration: .3s; -ms-transition-duration: .3s; transition-duration: .3s; -webkit-transition-timing-function: ease-out; -moz-transition-timing-function: ease-out; -ms-transition-timing-function: ease-out; transition-timing-function: ease-out
+}
+BODY.fl-visible-guide #main {
+	-webkit-transform: translate3d(360px,0,0); -moz-transform: translate3d(360px,0,0); -ms-transform: translate3d(360px,0,0); transform: translate3d(360px,0,0)
+}
+BODY.fl-hidden-guide #main {
+	-webkit-transform: translate3d(0,0,0); -moz-transform: translate3d(0,0,0); -ms-transform: translate3d(0,0,0); transform: translate3d(0,0,0)
+}
+BODY.showing-category-guide #main {
+	-webkit-transform: translate3d(720px,0,0); -moz-transform: translate3d(720px,0,0); -ms-transform: translate3d(720px,0,0); transform: translate3d(720px,0,0)
+}
+.loading.guide:after {
+	FONT-SIZE: 30px; WIDTH: 100%; POSITION: absolute; COLOR: #999; TEXT-ALIGN: center; CONTENT: "Loading..."; LEFT: 0px; MARGIN-TOP: -15px; LINE-HEIGHT: 50px; TOP: 50%
+}
+.loading.guide .selected-category:after {
+	FONT-SIZE: 30px; WIDTH: 100%; POSITION: absolute; COLOR: #999; TEXT-ALIGN: center; CONTENT: "Loading..."; LEFT: 0px; MARGIN-TOP: -15px; LINE-HEIGHT: 50px; TOP: 50%
+}
+[data-flap] {
+	-webkit-backface-visibility: hidden; backface-visibility: hidden
+}
+[data-flap].backface-visible {
+	-webkit-backface-visibility: visible; backface-visibility: visible
+}
+[data-flap='left'] {
+	Z-INDEX: 1
+}
+[data-flap='right'] {
+	Z-INDEX: 1
+}
+[data-flap='front'] {
+	Z-INDEX: 2
+}
+[data-flap='back'] {
+	Z-INDEX: 2
+}
+.flap-shadow {
+	HEIGHT: 100%; WIDTH: 50%; BACKGROUND: #000; POSITION: absolute; Z-INDEX: 999; TOP: 0px
+}
+.left.flap-shadow {
+	LEFT: 0px
+}
+.back.flap-shadow {
+	LEFT: 0px
+}
+.right.flap-shadow {
+	RIGHT: 0px
+}
+.front.flap-shadow {
+	RIGHT: 0px
+}
+.vertical.flap-shadow {
+	HEIGHT: 50%; WIDTH: 100%
+}
+.left.vertical.flap-shadow {
+	TOP: 0px
+}
+.back.vertical.flap-shadow {
+	TOP: 0px
+}
+.right.vertical.flap-shadow {
+	TOP: 50%
+}
+.front.vertical.flap-shadow {
+	TOP: 50%
+}
+.gradient.flap-shadow {
+	
+}
+.gradient.back.flap-shadow {
+	
+}
+.win-appbar {
+	WIDTH: 100%
+}
+.icon-background {
+	BACKGROUND-IMAGE: url(http://www.flipboard.com/static/img/sprites-retina-s4dfdc8ca88.png); background-size: 202px auto; -webkit-background-size: 202px auto; -moz-background-size: 202px auto; -o-background-size: 202px auto
+}
+.app-store-btn-icon {
+	HEIGHT: 50px; WIDTH: 50px; BACKGROUND-POSITION: 0px -924px
+}
+.app-store-large-icon {
+	HEIGHT: 60px; WIDTH: 202px; BACKGROUND-POSITION: 0px -255px
+}
+.app-store-small-icon {
+	HEIGHT: 40px; WIDTH: 135px; BACKGROUND-POSITION: 0px -470px
+}
+.app-store-smallest-icon {
+	HEIGHT: 35px; WIDTH: 110px; BACKGROUND-POSITION: 0px -415px
+}
+.close-icon {
+	HEIGHT: 20px; WIDTH: 20px; BACKGROUND-POSITION: 0px -1184px
+}
+.download-app-store-icon {
+	HEIGHT: 34px; WIDTH: 115px; BACKGROUND-POSITION: 0px -670px
+}
+.download-google-play-icon {
+	HEIGHT: 40px; WIDTH: 116px; BACKGROUND-POSITION: 0px -140px
+}
+.google-play-btn-icon {
+	HEIGHT: 50px; WIDTH: 50px; BACKGROUND-POSITION: 0px -784px
+}
+.google-play-large-icon {
+	HEIGHT: 60px; WIDTH: 175px; BACKGROUND-POSITION: 0px 0px
+}
+.google-play-small-icon {
+	HEIGHT: 40px; WIDTH: 112px; BACKGROUND-POSITION: 0px -80px
+}
+.google-play-smallest-icon {
+	HEIGHT: 35px; WIDTH: 110px; BACKGROUND-POSITION: 0px -200px
+}
+#static-page footer .get-the-app {
+	DISPLAY: none
+}
+#support footer .get-the-app {
+	DISPLAY: none
+}
+.modal-window {
+	BOX-SIZING: border-box; HEIGHT: 490px; WIDTH: 490px; BACKGROUND: #fff; POSITION: fixed; PADDING-BOTTOM: 70px; PADDING-TOP: 70px; PADDING-LEFT: 50px; Z-INDEX: 99; PADDING-RIGHT: 50px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box
+}
+.get-the-app.modal-window .head {
+	FONT-SIZE: 1.8em; TEXT-ALIGN: center
+}
+.get-the-app.modal-window .subhead {
+	MARGIN-BOTTOM: 50px; FONT-SIZE: 1.8em; COLOR: #b7b7b7; TEXT-ALIGN: center
+}
+.get-the-app.modal-window .close-icon {
+	BACKGROUND-IMAGE: url(http://www.flipboard.com/static/img/sprites-retina-s4dfdc8ca88.png); RIGHT: 20px; POSITION: absolute; TOP: 20px; background-size: 202px auto; -webkit-background-size: 202px auto; -moz-background-size: 202px auto; -o-background-size: 202px auto
+}
+.get-the-app.modal-window .status-text {
+	FONT-SIZE: 1em; COLOR: #363636; LINE-HEIGHT: 1em
+}
+.get-the-app.modal-window .app-store-icon {
+	HEIGHT: 60px; WIDTH: 202px; BACKGROUND-IMAGE: url(http://www.flipboard.com/static/img/sprites-retina-s4dfdc8ca88.png); BACKGROUND-POSITION: 0px -255px; background-size: 202px auto; -webkit-background-size: 202px auto; -moz-background-size: 202px auto; -o-background-size: 202px auto
+}
+.get-the-app.modal-window .google-play-icon {
+	HEIGHT: 60px; WIDTH: 175px; BACKGROUND-IMAGE: url(http://www.flipboard.com/static/img/sprites-retina-s4dfdc8ca88.png); BACKGROUND-POSITION: 0px 0px; background-size: 202px auto; -webkit-background-size: 202px auto; -moz-background-size: 202px auto; -o-background-size: 202px auto
+}
+.get-the-app.modal-window .app-store-icon {
+	OVERFLOW: hidden; MARGIN-BOTTOM: 50px; VERTICAL-ALIGN: middle; ZOOM: 1; DISPLAY: inline-block; TEXT-INDENT: -999px
+}
+.get-the-app.modal-window .google-play-icon {
+	OVERFLOW: hidden; MARGIN-BOTTOM: 50px; VERTICAL-ALIGN: middle; ZOOM: 1; DISPLAY: inline-block; TEXT-INDENT: -999px
+}
+.get-the-app.modal-window INPUT {
+	BORDER-LEFT-WIDTH: 0px; BOX-SIZING: border-box; FONT-SIZE: 0.8em; HEIGHT: 50px; BORDER-RIGHT-WIDTH: 0px; VERTICAL-ALIGN: top; BACKGROUND: #ebebeb; BORDER-BOTTOM-WIDTH: 0px; COLOR: #b7b7b7; OUTLINE-WIDTH: 0px; PADDING-BOTTOM: 17px; PADDING-TOP: 17px; PADDING-LEFT: 20px; MARGIN: 0px 5px; LINE-HEIGHT: 0.8em; PADDING-RIGHT: 20px; BORDER-TOP-WIDTH: 0px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px
+}
+.get-the-app.modal-window INPUT[type='text'] {
+	WIDTH: 285px
+}
+.get-the-app.modal-window INPUT[type='submit'] {
+	BORDER-TOP: #8f1812 2px solid; BORDER-RIGHT: #8f1812 2px solid; BACKGROUND: #b31f17; BORDER-BOTTOM: #8f1812 2px solid; FONT-WEIGHT: bold; COLOR: #fff; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 20px; BORDER-LEFT: #8f1812 2px solid; LINE-HEIGHT: 47px; PADDING-RIGHT: 20px; text-shadow: 0 -2px 0 #8f1812; box-shadow: inset 0 1px 1px 0 #cf7a77; -webkit-box-shadow: inset 0 1px 1px 0 #cf7a77; -moz-box-shadow: inset 0 1px 1px 0 #cf7a77
+}
+
+@media Unknown    
+{
+.modal-window {
+	BOX-SIZING: border-box; HEIGHT: 340px; WIDTH: 300px; BACKGROUND: #fff; POSITION: fixed; PADDING-BOTTOM: 40px; PADDING-TOP: 40px; PADDING-LEFT: 30px; Z-INDEX: 99; PADDING-RIGHT: 30px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box
+}
+.get-the-app.modal-window .head {
+	FONT-SIZE: 1em; TEXT-ALIGN: center
+}
+.get-the-app.modal-window .subhead {
+	MARGIN-BOTTOM: 20px; FONT-SIZE: 1em; COLOR: #b7b7b7; TEXT-ALIGN: center
+}
+.get-the-app.modal-window .close-icon {
+	BACKGROUND-IMAGE: url(http://www.flipboard.com/static/img/sprites-retina-s4dfdc8ca88.png); RIGHT: 10px; POSITION: absolute; TOP: 10px; background-size: 202px auto; -webkit-background-size: 202px auto; -moz-background-size: 202px auto; -o-background-size: 202px auto
+}
+.get-the-app.modal-window .status-text {
+	FONT-SIZE: 0.9em; COLOR: #363636; LINE-HEIGHT: 0.9em
+}
+.get-the-app.modal-window .app-store-icon {
+	HEIGHT: 35px; WIDTH: 110px; BACKGROUND-IMAGE: url(http://www.flipboard.com/static/img/sprites-retina-s4dfdc8ca88.png); BACKGROUND-POSITION: 0px -415px; background-size: 202px auto; -webkit-background-size: 202px auto; -moz-background-size: 202px auto; -o-background-size: 202px auto
+}
+.get-the-app.modal-window .google-play-icon {
+	HEIGHT: 35px; WIDTH: 110px; BACKGROUND-IMAGE: url(http://www.flipboard.com/static/img/sprites-retina-s4dfdc8ca88.png); BACKGROUND-POSITION: 0px -200px; background-size: 202px auto; -webkit-background-size: 202px auto; -moz-background-size: 202px auto; -o-background-size: 202px auto
+}
+.get-the-app.modal-window .app-store-icon {
+	OVERFLOW: hidden; MARGIN-BOTTOM: 10px; VERTICAL-ALIGN: middle; ZOOM: 1; DISPLAY: inline-block; TEXT-INDENT: -999px
+}
+.get-the-app.modal-window .google-play-icon {
+	OVERFLOW: hidden; MARGIN-BOTTOM: 10px; VERTICAL-ALIGN: middle; ZOOM: 1; DISPLAY: inline-block; TEXT-INDENT: -999px
+}
+.get-the-app.modal-window INPUT[type='text'] {
+	MARGIN-BOTTOM: 10px; WIDTH: 230px
+}
+.get-the-app.modal-window INPUT[type='submit'] {
+	WIDTH: 230px
+}
+    }
+.share-ui {
+	OVERFLOW: hidden; HEIGHT: auto; WIDTH: 648px; BACKGROUND: #fff; PADDING-BOTTOM: 35px; PADDING-TOP: 37px; PADDING-LEFT: 34px; PADDING-RIGHT: 51px; border-radius: 6px
+}
+.share-ui .column-left {
+	HEIGHT: 358px; WIDTH: 269px; POSITION: relative; BACKGROUND-POSITION: center center; FLOAT: left; PADDING-BOTTOM: 9px; PADDING-TOP: 9px; PADDING-LEFT: 9px; PADDING-RIGHT: 9px; MARGIN-RIGHT: 39px; background-size: cover; box-shadow: 3px 3px 50px 6px rgba(0,0,0,0.3); -webkit-box-shadow: 3px 3px 50px 6px rgba(0,0,0,0.3); -moz-box-shadow: 3px 3px 50px 6px rgba(0,0,0,0.3)
+}
+.share-ui .column-left H1 {
+	FONT-SIZE: 34px; POSITION: relative; FONT-WEIGHT: 600; COLOR: #fff; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px 0px 6px; PADDING-RIGHT: 0px
+}
+.share-ui .column-left .author-image {
+	HEIGHT: 17px; WIDTH: 17px; VERTICAL-ALIGN: top; POSITION: relative; MARGIN-RIGHT: 4px
+}
+.share-ui .column-left .author-name {
+	FONT-SIZE: 8px; VERTICAL-ALIGN: top; POSITION: relative; COLOR: #fff
+}
+.share-ui .column-left .gradient {
+	HEIGHT: 50%; WIDTH: 100%; POSITION: absolute; LEFT: 0px; opacity: 1
+}
+.share-ui .column-left .lower.gradient {
+	BOTTOM: 0px
+}
+.share-ui .column-left .upper.gradient {
+	TOP: 0px
+}
+.share-ui .column-right {
+	WIDTH: 255px; FLOAT: left; PADDING-TOP: 71px
+}
+.share-ui .column-right H2 {
+	MARGIN-BOTTOM: 17px; FONT-SIZE: 36px; FONT-WEIGHT: 300; LINE-HEIGHT: 36px
+}
+.share-ui .column-right .services {
+	OVERFLOW: hidden; MARGIN-BOTTOM: 39px
+}
+.share-ui .column-right .services .service {
+	CURSOR: pointer; HEIGHT: 48px; WIDTH: 48px; BACKGROUND-IMAGE: url(https://philz.flipboard.com/ss/images/social-icons-b4955f72.png); FLOAT: left; MARGIN-RIGHT: 14px
+}
+.share-ui .column-right .services .email.service {
+	BACKGROUND-POSITION: 0px 0px
+}
+.share-ui .column-right .services .facebook.service {
+	BACKGROUND-POSITION: -50px 0px
+}
+.share-ui .column-right .services .twitter.service {
+	BACKGROUND-POSITION: -101px 0px
+}
+.share-ui .column-right .fl-field {
+	FONT-SIZE: 18px; WIDTH: 100%
+}
+DIV.lists#main {
+	HEIGHT: auto; WIDTH: auto; BACKGROUND-COLOR: white
+}
+DIV.lists#main H1 {
+	TEXT-TRANSFORM: lowercase; MARGIN: 20px
+}
+DIV.lists#main .mag {
+	OVERFLOW: hidden; CURSOR: pointer; TEXT-DECORATION: none; BORDER-TOP: gray 1px solid; HEIGHT: 200px; BORDER-RIGHT: gray 1px solid; WIDTH: 160px; BORDER-BOTTOM: gray 1px solid; BACKGROUND-POSITION: 50% 50%; FLOAT: left; COLOR: white; PADDING-BOTTOM: 10px; PADDING-TOP: 10px; PADDING-LEFT: 10px; MARGIN: 20px; BORDER-LEFT: gray 1px solid; DISPLAY: block; PADDING-RIGHT: 10px; text-shadow: 1px 1px #333; background-size: cover
+}
+DIV.lists#main .mag H2 {
+	FONT-SIZE: 120%; FONT-WEIGHT: bold
+}
+DIV.lists#main .nonmag {
+	OVERFLOW: hidden; CURSOR: pointer; TEXT-DECORATION: none; BORDER-TOP: gray 1px solid; HEIGHT: 256px; BORDER-RIGHT: gray 1px solid; WIDTH: 256px; BORDER-BOTTOM: gray 1px solid; BACKGROUND-POSITION: 50% 50%; FLOAT: left; COLOR: white; PADDING-BOTTOM: 10px; PADDING-TOP: 10px; PADDING-LEFT: 10px; MARGIN: 20px; BORDER-LEFT: gray 1px solid; DISPLAY: block; PADDING-RIGHT: 10px; text-shadow: 1px 1px #333; background-size: cover
+}
+DIV.lists#main .nonmag H2 {
+	FONT-SIZE: 120%; FONT-WEIGHT: bold
+}
+DIV.lists#main A[name] {
+	PADDING-TOP: 30px; DISPLAY: block
+}
+DIV.lists#main .section {
+	CLEAR: both; DISPLAY: none
+}
+DIV.lists#main .nav {
+	HEIGHT: 30px; WIDTH: 100%; RIGHT: 0px; BORDER-BOTTOM: black 1px solid; POSITION: fixed; LEFT: 0px; Z-INDEX: 10; TOP: 0px
+}
+DIV.lists#main .nav UL {
+	LIST-STYLE-TYPE: none; HEIGHT: 100%; -webkit-box-orient: horizontal; -moz-box-orient: horizontal; box-orient: horizontal
+}
+DIV.lists#main .nav UL LI {
+	HEIGHT: 100%; TEXT-ALIGN: center; -webkit-box-orient: vertical; -moz-box-orient: vertical; box-orient: vertical; -webkit-box-pack: center; -moz-box-pack: center; -ms-flex-pack: center; box-pack: center; -webkit-box-flex: 1; -moz-box-flex: 1; -ms-flex: 1; box-flex: 1
+}
+DIV.lists#main .nav UL LI A {
+	TEXT-DECORATION: none; TEXT-TRANSFORM: lowercase; FONT-WEIGHT: bold; COLOR: white; DISPLAY: block
+}
+DIV.lists#main .users .user {
+	TEXT-DECORATION: none; HEIGHT: 100px; WIDTH: 100px; POSITION: relative; MARGIN: 10px auto; DISPLAY: inline-block; BACKGROUND-COLOR: #eee; background-size: cover; box-shadow: 1px 1px 0 #333
+}
+DIV.lists#main .users .user SPAN {
+	TEXT-DECORATION: none; RIGHT: 5px; POSITION: absolute; COLOR: white; DISPLAY: block; BOTTOM: 5px; text-shadow: 1px 1px black
+}
+DIV.profile#main .cover.page .title {
+	WIDTH: 100%; POSITION: absolute; PADDING-LEFT: 20px; LEFT: 0px; BOTTOM: 250px
+}
+DIV.profile#main .cover.page .title .author-image {
+	BORDER-TOP: white 1px solid; HEIGHT: 100px; BORDER-RIGHT: white 1px solid; WIDTH: 100px; BORDER-BOTTOM: white 1px solid; BACKGROUND-POSITION: 50% 50%; BORDER-LEFT: white 1px solid; background-size: cover
+}
+DIV.profile#main .cover.page .title H1 {
+	MARGIN-BOTTOM: 10px; FONT-SIZE: 64px; LINE-HEIGHT: 64px
+}
+DIV.profile#main .cover.page .title H2 {
+	MARGIN-BOTTOM: 0px
+}
+DIV.profile#main .cover.page TABLE.metrics {
+	RIGHT: 20px; BORDER-COLLAPSE: collapse; POSITION: absolute; BOTTOM: 0px
+}
+DIV.profile#main .cover.page TABLE.metrics TD {
+	COLOR: white; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 20px; PADDING-RIGHT: 50px
+}
+DIV.profile#main .cover.page TABLE.metrics TD:first-child {
+	BORDER-LEFT-STYLE: none
+}
+DIV.profile#main .cover.page TABLE.metrics TD .metric-value {
+	FONT-SIZE: 42px; FONT-WEIGHT: 200; LINE-HEIGHT: 42px
+}
+DIV.profile#main .cover.page TABLE.metrics TD .metric-name {
+	FONT-SIZE: 22px; MARGIN-TOP: 5px; LINE-HEIGHT: 22px
+}
+DIV.profile#main .cover.page .magnav {
+	POSITION: absolute; COLOR: #ccc; TOP: 10px
+}
+DIV.profile#main .cover.page .magnav-prev.magnav {
+	LEFT: 10px; VISIBILITY: hidden
+}
+DIV.profile#main .cover.page .magnav-next.magnav {
+	RIGHT: 10px
+}
+DIV.profile#main .cover.page .magazines-section {
+	OVERFLOW: hidden; HEIGHT: 240px; RIGHT: 0px; POSITION: absolute; PADDING-BOTTOM: 10px; PADDING-TOP: 10px; PADDING-LEFT: 10px; LEFT: 0px; PADDING-RIGHT: 10px; BOTTOM: 0px
+}
+DIV.profile#main .cover.page .magazines-section H1 {
+	FONT-SIZE: 24px; FONT-WEIGHT: normal; LINE-HEIGHT: 24px
+}
+DIV.profile#main .cover.page .magazines-section .magazines-container {
+	OVERFLOW: hidden; HEIGHT: 160px; MARGIN-TOP: 10px
+}
+DIV.profile#main .cover.page .magazines-section .magazines {
+	OVERFLOW: hidden; HEIGHT: 160px; WIDTH: 100%; WHITE-SPACE: nowrap
+}
+DIV.profile#main .cover.page .magazines-section .magazines .magazine {
+	OVERFLOW: hidden; HEIGHT: 160px; WIDTH: 130px; VERTICAL-ALIGN: top; BACKGROUND-POSITION: 50% 50%; MARGIN: 0px 10px 10px 0px; DISPLAY: inline-block; LINE-HEIGHT: 160px; background-size: cover
+}
+DIV.profile#main .cover.page .magazines-section .magazines .magazine .click-fill {
+	HEIGHT: 100%; WIDTH: 100%; RIGHT: 0px; POSITION: absolute; LEFT: 0px; Z-INDEX: 2; TOP: 0px; BOTTOM: 0px
+}
+DIV.profile#main .cover.page .magazines-section .magazines .magazine H1 {
+	FONT-SIZE: 14px; FONT-WEIGHT: bold; MARGIN: 10px 5px; LINE-HEIGHT: 14px; text-shadow: 0 1px 0 black
+}
+HTML.slide {
+	OVERFLOW: hidden
+}
+HTML.stack {
+	OVERFLOW: hidden
+}
+HTML.flip {
+	OVERFLOW: hidden
+}
+HTML.slide BODY {
+	OVERFLOW: hidden
+}
+HTML.stack BODY {
+	OVERFLOW: hidden
+}
+HTML.flip BODY {
+	OVERFLOW: hidden
+}
+HTML.flip BODY #main {
+	OVERFLOW: hidden
+}
+#main {
+	HEIGHT: 100%; WIDTH: 100%; BACKGROUND: #000; POSITION: relative
+}
+.loading#main {
+	BACKGROUND: #444
+}
+.resizing#main {
+	BACKGROUND: #333
+}
+.scrubbing#main {
+	-webkit-user-select: none; -ms-user-select: none; -moz-user-select: none; user-select: none
+}
+
+@media Unknown    
+{
+HTML.safari.flip {
+	BACKGROUND: #111
+}
+HTML.safari.flip BODY {
+	WIDTH: 2000px; POSITION: relative; MARGIN: 0px auto
+}
+    }
+.fitting .title {
+	VISIBILITY: hidden
+}
+.fitting .featured {
+	VISIBILITY: hidden
+}
+.fitting .also {
+	VISIBILITY: hidden
+}
+.label {
+	FONT-SIZE: 24px; TEXT-TRANSFORM: uppercase; COLOR: #ff9b17; text-shadow: 0 1px 0 rgba(0,0,0,0.5)
+}
+
+@media Unknown    
+{
+.label {
+	FONT-SIZE: 16px
+}
+    }
+.flip-hint {
+	CURSOR: pointer; HEIGHT: 33px; WIDTH: 106px; POSITION: fixed; MARGIN-LEFT: -53px; LEFT: 50%; Z-INDEX: 999; BOTTOM: 0px; opacity: 0; -webkit-transition-property: opacity; -moz-transition-property: opacity; -ms-transition-property: opacity; transition-property: opacity; -webkit-transition-duration: .15s; -moz-transition-duration: .15s; -ms-transition-duration: .15s; transition-duration: .15s
+}
+.showing-arrows .flip-hint {
+	opacity: 1
+}
+.upper.flip-hint {
+	BACKGROUND-IMAGE: url(https://philz.flipboard.com/ss/images/interior-arrow-up-c1dafdde.png); TOP: 0px; BOTTOM: auto
+}
+.showing-cover .upper.flip-hint {
+	DISPLAY: none
+}
+.showing-cover .flip-hint {
+	BACKGROUND-IMAGE: url(https://philz.flipboard.com/ss/images/cover-arrow-707d7e60.png); opacity: 1
+}
+.horizontal .flip-hint {
+	HEIGHT: 106px; WIDTH: 33px; BACKGROUND-IMAGE: url(https://philz.flipboard.com/ss/images/interior-arrow-right-4be56533.png); RIGHT: 0px; MARGIN-LEFT: 0px; LEFT: auto; MARGIN-TOP: -53px; TOP: 50%
+}
+.horizontal .upper.flip-hint {
+	BACKGROUND-IMAGE: url(https://philz.flipboard.com/ss/images/interior-arrow-left-657d26f2.png); LEFT: 0px; TOP: 50%
+}
+.showing-cover .horizontal .flip-hint {
+	BACKGROUND-IMAGE: url(https://philz.flipboard.com/ss/images/cover-arrow-horizontal-5d249c0b.png)
+}
+.transitioning .flip-hint {
+	opacity: 0
+}
+.loading .flip-hint {
+	opacity: 0
+}
+.flip-hint:hover {
+	
+}
+.page {
+	HEIGHT: 100%; WIDTH: 100%; POSITION: relative
+}
+HTML.slide .page {
+	MARGIN-BOTTOM: 0px
+}
+HTML.stack .page {
+	MARGIN-BOTTOM: 0px
+}
+HTML.stack .transitioning.page {
+	
+}
+HTML.snap {
+	OVERFLOW-Y: hidden
+}
+HTML.snap .flip-hint {
+	DISPLAY: none
+}
+HTML.snap .scrubber {
+	DISPLAY: none
+}
+.bookend {
+	BACKGROUND-COLOR: #333
+}
+.cover.page * {
+	POSITION: relative; Z-INDEX: 3
+}
+.cover.page .cover-image {
+	RIGHT: 0px; BACKGROUND-REPEAT: no-repeat; POSITION: absolute; BACKGROUND-POSITION: center center; LEFT: 0px; Z-INDEX: 0; TOP: 0px; BOTTOM: 0px; background-size: cover
+}
+.cover.page .default.cover-image {
+	BACKGROUND-IMAGE: url(https://philz.flipboard.com/ss/images/cover-pattern-d828d736.png); BACKGROUND-REPEAT: repeat
+}
+.cover.page .content {
+	HEIGHT: 100%; WIDTH: 100%; POSITION: relative; PADDING-BOTTOM: 25px; PADDING-TOP: 25px; PADDING-LEFT: 25px; PADDING-RIGHT: 25px
+}
+.cover.page .title {
+	MAX-HEIGHT: 35%
+}
+.cover.page .medium.title H1 {
+	FONT-SIZE: 80px; LINE-HEIGHT: 80px
+}
+.cover.page .small.title H1 {
+	FONT-SIZE: 60px; LINE-HEIGHT: 60px
+}
+.cover.page .medium.title H2 {
+	FONT-SIZE: 30px; LINE-HEIGHT: 36px
+}
+.cover.page .small.title H2 {
+	FONT-SIZE: 30px; LINE-HEIGHT: 36px
+}
+.cover.page H1 {
+	FONT-SIZE: 130px; FONT-WEIGHT: 600; COLOR: #fff; LINE-HEIGHT: 130px; MARGIN-RIGHT: 390px
+}
+.cover.page H2 {
+	FONT-SIZE: 130px; FONT-WEIGHT: 600; COLOR: #fff; LINE-HEIGHT: 130px; MARGIN-RIGHT: 390px
+}
+
+@media Unknown    
+{
+.cover.page H1 {
+	MARGIN-RIGHT: 332px
+}
+.cover.page H2 {
+	MARGIN-RIGHT: 332px
+}
+    }
+.cover.page H2 {
+	MARGIN-BOTTOM: 20px; FONT-SIZE: 36px; FONT-WEIGHT: 300; LINE-HEIGHT: 44px
+}
+.cover.page .gradient {
+	HEIGHT: 600px; WIDTH: 100%; POSITION: absolute; Z-INDEX: 1; opacity: 1
+}
+.cover.page .lower.gradient {
+	BOTTOM: 0px
+}
+.cover.page .upper.gradient {
+	TOP: 0px
+}
+.loading.cover.page {
+	BACKGROUND: #444
+}
+.loading.cover.page .gradient {
+	opacity: 0
+}
+.cover.page .metadata {
+	POSITION: relative
+}
+.cover.page .metadata IMG {
+	HEIGHT: 60px; WIDTH: 60px; POSITION: absolute; LEFT: 0px; DISPLAY: inline-block; TOP: 0px; MARGIN-RIGHT: 8px
+}
+.cover.page .metadata .metrics {
+	MARGIN-TOP: 5px; LINE-HEIGHT: 24px; opacity: 1; -webkit-transition-property: -webkit-transform,-moz-transform,-ms-transform,transform,opacity; -moz-transition-property: -webkit-transform,-moz-transform,-ms-transform,transform,opacity; -ms-transition-property: -webkit-transform,-moz-transform,-ms-transform,transform,opacity; transition-property: -webkit-transform,-moz-transform,-ms-transform,transform,opacity; -webkit-transition-duration: .2s; -moz-transition-duration: .2s; -ms-transition-duration: .2s; transition-duration: .2s; -webkit-transition-timing-function: ease-out; -moz-transition-timing-function: ease-out; -ms-transition-timing-function: ease-out; transition-timing-function: ease-out
+}
+.cover.page .metadata .loading.metrics {
+	opacity: 0; -webkit-transform: translate3d(0,10px,0); -moz-transform: translate3d(0,10px,0); -ms-transform: translate3d(0,10px,0); transform: translate3d(0,10px,0)
+}
+.cover.page .metadata .metrics .share-button {
+	FONT-WEIGHT: 200; COLOR: #fff; PADDING-BOTTOM: 4px; PADDING-TOP: 4px; PADDING-LEFT: 8px; MARGIN-TOP: 10px; PADDING-RIGHT: 8px; text-shadow: 0 0 1px rgba(0,0,0,0.35); border-radius: 0
+}
+.cover.page .metadata H5 {
+	FONT-SIZE: 18px; FONT-WEIGHT: 300; COLOR: #fff; MARGIN-LEFT: 74px; text-shadow: 0 0 1px rgba(0,0,0,0.35)
+}
+.cover.page .metadata .metrics LI {
+	FONT-SIZE: 18px; FONT-WEIGHT: 300; COLOR: #fff; MARGIN-LEFT: 74px; text-shadow: 0 0 1px rgba(0,0,0,0.35)
+}
+.cover.page .metadata H5 {
+	FONT-SIZE: 30px
+}
+.cover.page .metadata A {
+	TEXT-DECORATION: none; COLOR: white
+}
+.cover.page .metadata A :hover {
+	TEXT-DECORATION: underline
+}
+.cover.page .metadata A IMG {
+	BORDER-LEFT-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-TOP-WIDTH: 0px
+}
+.cover.page .metadata A IMG:hover {
+	OUTLINE-WIDTH: 1px; OUTLINE-STYLE: solid; OUTLINE-COLOR: #aaa; outline-offset: -1px
+}
+.cover.page .featured {
+	opacity: 1; -webkit-transition-property: -webkit-transform,-moz-transform,-ms-transform,transform,opacity; -moz-transition-property: -webkit-transform,-moz-transform,-ms-transform,transform,opacity; -ms-transition-property: -webkit-transform,-moz-transform,-ms-transform,transform,opacity; transition-property: -webkit-transform,-moz-transform,-ms-transform,transform,opacity; -webkit-transition-duration: .2s; -moz-transition-duration: .2s; -ms-transition-duration: .2s; transition-duration: .2s; -webkit-transform: translate3d(0,0,0); -moz-transform: translate3d(0,0,0); -ms-transform: translate3d(0,0,0); transform: translate3d(0,0,0); -webkit-transition-timing-function: ease-out; -moz-transition-timing-function: ease-out; -ms-transition-timing-function: ease-out; transition-timing-function: ease-out
+}
+.cover.page .also {
+	opacity: 1; -webkit-transition-property: -webkit-transform,-moz-transform,-ms-transform,transform,opacity; -moz-transition-property: -webkit-transform,-moz-transform,-ms-transform,transform,opacity; -ms-transition-property: -webkit-transform,-moz-transform,-ms-transform,transform,opacity; transition-property: -webkit-transform,-moz-transform,-ms-transform,transform,opacity; -webkit-transition-duration: .2s; -moz-transition-duration: .2s; -ms-transition-duration: .2s; transition-duration: .2s; -webkit-transform: translate3d(0,0,0); -moz-transform: translate3d(0,0,0); -ms-transform: translate3d(0,0,0); transform: translate3d(0,0,0); -webkit-transition-timing-function: ease-out; -moz-transition-timing-function: ease-out; -ms-transition-timing-function: ease-out; transition-timing-function: ease-out
+}
+.cover.page .loading.featured {
+	opacity: 0; -webkit-transform: translate3d(0,20px,0); -moz-transform: translate3d(0,20px,0); -ms-transform: translate3d(0,20px,0); transform: translate3d(0,20px,0)
+}
+.cover.page .loading.also {
+	opacity: 0; -webkit-transform: translate3d(0,20px,0); -moz-transform: translate3d(0,20px,0); -ms-transform: translate3d(0,20px,0); transform: translate3d(0,20px,0)
+}
+.cover.page .featured {
+	MAX-WIDTH: 55%; POSITION: absolute; COLOR: #fff; LEFT: 25px; MAX-HEIGHT: 40%; BOTTOM: 25px; MARGIN-RIGHT: 400px
+}
+
+@media Unknown    
+{
+.cover.page .featured {
+	MARGIN-RIGHT: 342px
+}
+    }
+.cover.page .featured H2 {
+	FONT-SIZE: 112px; FONT-WEIGHT: 100; MARGIN: 20px 0px; LINE-HEIGHT: 112px
+}
+.cover.page .medium.featured H2 {
+	FONT-SIZE: 80px; LINE-HEIGHT: 80px
+}
+.cover.page .small.featured H2 {
+	FONT-SIZE: 60px; LINE-HEIGHT: 60px
+}
+.cover.page .featured H3 {
+	FONT-SIZE: 22px; TEXT-TRANSFORM: uppercase; PADDING-BOTTOM: 50px; LINE-HEIGHT: 22px
+}
+
+@media Unknown    
+{
+.cover.page .featured H3 {
+	FONT-SIZE: 36px; LINE-HEIGHT: 36px
+}
+    }
+.cover.page .featured UL {
+	MARGIN: 10px 0px
+}
+.cover.page .also {
+	WIDTH: 370px; RIGHT: 25px; POSITION: absolute; COLOR: #fff; BOTTOM: 142px
+}
+
+@media Unknown    
+{
+.cover.page .also {
+	WIDTH: 312px
+}
+    }
+.cover.page .also .inside {
+	DISPLAY: none
+}
+
+@media Unknown    
+{
+.cover.page .also .inside {
+	DISPLAY: block
+}
+    }
+.cover.page .also LI {
+	MARGIN-TOP: 22px
+}
+.cover.page .also LI:unknown {
+	MARGIN-BOTTOM: 22px
+}
+.cover.page .also LI.main-item {
+	DISPLAY: none
+}
+.cover.page .also H4 {
+	MARGIN-BOTTOM: 8px; FONT-SIZE: 28px; LINE-HEIGHT: 28px
+}
+
+@media Unknown    
+{
+.cover.page .also H4 {
+	FONT-SIZE: 36px; LINE-HEIGHT: 36px
+}
+    }
+.cover.page .also H5 {
+	FONT-SIZE: 16px; TEXT-TRANSFORM: uppercase; LINE-HEIGHT: 16px
+}
+
+@media Unknown    
+{
+.cover.page .also H5 {
+	FONT-SIZE: 18px; LINE-HEIGHT: 18px
+}
+    }
+.cover.page A.photo-attribution {
+	FONT-SIZE: 18px; TEXT-DECORATION: none; POSITION: absolute; COLOR: #fff; LEFT: 25px; LINE-HEIGHT: 18px; BOTTOM: 25px
+}
+.cover.page .callout {
+	WIDTH: 370px; RIGHT: 25px; POSITION: absolute; BOTTOM: 54px
+}
+.cover.page .edge.callout {
+	TEXT-ALIGN: right
+}
+
+@media Unknown    
+{
+.cover.page .callout {
+	WIDTH: 312px
+}
+    }
+.cover.page .callout #get-app {
+	CURSOR: pointer; FONT-SIZE: 24px; COLOR: #fff; PADDING-BOTTOM: 13px; PADDING-TOP: 13px; PADDING-LEFT: 13px; LINE-HEIGHT: 24px; PADDING-RIGHT: 13px; border-radius: 1px
+}
+.cover.page .callout #get-app IMG {
+	DISPLAY: inline-block; TOP: 1px; MARGIN-RIGHT: 10px
+}
+
+@media Unknown    
+{
+.scrubber {
+	DISPLAY: none
+}
+.cover.page {
+	OVERFLOW: hidden
+}
+.cover.page .content {
+	PADDING-BOTTOM: 10px; PADDING-TOP: 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px
+}
+.cover.page H1 {
+	MARGIN-RIGHT: 0px
+}
+.cover.page H2 {
+	MARGIN-RIGHT: 0px
+}
+.cover.page .title {
+	MARGIN-BOTTOM: 30px
+}
+.cover.page .title H1 {
+	MARGIN-BOTTOM: 5px; FONT-SIZE: 42px; LINE-HEIGHT: 42px
+}
+.cover.page .title H2 {
+	FONT-SIZE: 24px; LINE-HEIGHT: 24px
+}
+.cover.page .medium.title H1 {
+	FONT-SIZE: 33px; LINE-HEIGHT: 33px
+}
+.cover.page .medium.title H2 {
+	FONT-SIZE: 18px; LINE-HEIGHT: 18px
+}
+.cover.page .small.title H1 {
+	FONT-SIZE: 24px; LINE-HEIGHT: 24px
+}
+.cover.page .small.title H2 {
+	FONT-SIZE: 14px; LINE-HEIGHT: 14px
+}
+.cover.page .title:after {
+	HEIGHT: 1px; WIDTH: 75%; BACKGROUND: #fff; POSITION: absolute; LEFT: 0px; DISPLAY: block; BOTTOM: -12px
+}
+.cover.page .metadata IMG {
+	BORDER-TOP: #fff 1px solid; HEIGHT: 44px; BORDER-RIGHT: #fff 1px solid; WIDTH: 44px; BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid
+}
+.cover.page .metadata H5 {
+	MARGIN-LEFT: 50px
+}
+.cover.page .metadata .metrics LI {
+	MARGIN-LEFT: 50px
+}
+.cover.page .metadata H5 {
+	FONT-SIZE: 22px
+}
+.cover.page .metadata .metrics {
+	LINE-HEIGHT: 20px
+}
+.cover.page .featured {
+	DISPLAY: none
+}
+.cover.page .also {
+	WIDTH: 80%; RIGHT: auto; LEFT: 10px; BOTTOM: 60px
+}
+.cover.page .also H4 {
+	MARGIN-BOTTOM: 4px; FONT-SIZE: 18px; LINE-HEIGHT: 18px
+}
+.cover.page .also H5 {
+	FONT-SIZE: 14px; LINE-HEIGHT: 14px
+}
+.cover.page .also :first-child.label {
+	DISPLAY: none
+}
+.cover.page .also .label:unknown {
+	MARGIN-TOP: 10px
+}
+.cover.page .also LI {
+	MARGIN-TOP: 10px
+}
+.cover.page .also LI:unknown {
+	MARGIN-BOTTOM: 10px
+}
+UNKNOWN {
+	DISPLAY: none
+}
+.cover.page .also LI.main-item {
+	DISPLAY: block
+}
+.cover.page A.photo-attribution {
+	FONT-SIZE: 14px; WIDTH: 1000px; RIGHT: 0px; MARGIN-LEFT: -19px; LEFT: 100%; LINE-HEIGHT: 14px; BOTTOM: 0px; -webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg); -webkit-transform-origin: 0 0; -moz-transform-origin: 0 0; -ms-transform-origin: 0 0; transform-origin: 0 0
+}
+.cover.page .callout {
+	WIDTH: auto; RIGHT: 26px
+}
+.cover.page .callout #get-app {
+	FONT-SIZE: 18px; PADDING-BOTTOM: 10px; PADDING-TOP: 10px; PADDING-LEFT: 10px; LINE-HEIGHT: 18px; PADDING-RIGHT: 10px
+}
+.cover.page .callout #get-app IMG {
+	VERTICAL-ALIGN: middle; TOP: -1px
+}
+    }
+#flipui-main {
+	HEIGHT: 435px; WIDTH: 532px; BACKGROUND: #fafafa; POSITION: relative; MARGIN: auto; DISPLAY: none; border-radius: 0; box-shadow: 0 1px 4px rgba(0,0,0,0.6)
+}
+#flipui-main :focus:unknown {
+	OUTLINE-WIDTH: 0px
+}
+#flipui-main *:focus {
+	OUTLINE-WIDTH: 0px
+}
+.embedded#flipui-main {
+	border-radius: 5px
+}
+
+@media Unknown    
+{
+#flipui-main {
+	HEIGHT: 340px; WIDTH: 300px
+}
+.embedded#flipui-main {
+	border-radius: 4px
+}
+    }
+#flipui-main #header {
+	HEIGHT: 60px; POSITION: relative; TEXT-ALIGN: center
+}
+#flipui-main #header H1 {
+	OVERFLOW: hidden; FONT-SIZE: 16px; WHITE-SPACE: nowrap; TEXT-OVERFLOW: ellipsis; FONT-WEIGHT: 600; COLOR: #262626; PADDING-BOTTOM: 0px; PADDING-TOP: 22px; PADDING-LEFT: 0px; MARGIN: 0px 120px; PADDING-RIGHT: 0px; text-shadow: 0 1px 0 #fff
+}
+#flipui-main #header .left {
+	POSITION: absolute; LEFT: 12px; TOP: 12px
+}
+#flipui-main #header .right {
+	RIGHT: 12px; MIN-WIDTH: 50px; POSITION: absolute; TOP: 12px
+}
+
+@media Unknown    
+{
+#flipui-main #header {
+	HEIGHT: 56px
+}
+#flipui-main #header .left {
+	LEFT: 10px; TOP: 10px
+}
+#flipui-main #header .right {
+	RIGHT: 10px; TOP: 10px
+}
+    }
+#flipui-main #header H1 {
+	OVERFLOW: hidden; FONT-SIZE: 16px; WHITE-SPACE: nowrap; TEXT-OVERFLOW: ellipsis; FONT-WEIGHT: 600; COLOR: #262626; PADDING-BOTTOM: 0px; PADDING-TOP: 22px; PADDING-LEFT: 0px; MARGIN: 0px 120px; PADDING-RIGHT: 0px; text-shadow: 0 1px 0 #fff
+}
+#flipui-main #header .left {
+	POSITION: absolute; LEFT: 12px; TOP: 12px
+}
+#flipui-main #header .right {
+	RIGHT: 12px; MIN-WIDTH: 50px; POSITION: absolute; TOP: 12px
+}
+
+@media Unknown    
+{
+#flipui-main #header {
+	HEIGHT: 56px
+}
+#flipui-main #header .left {
+	LEFT: 10px; TOP: 10px
+}
+#flipui-main #header .right {
+	RIGHT: 10px; TOP: 10px
+}
+    }
+#flipui-main #header .fl-button {
+	PADDING-BOTTOM: 8px; PADDING-TOP: 8px; PADDING-LEFT: 8px; PADDING-RIGHT: 8px
+}
+#flipui-main #content-ctr {
+	POSITION: relative
+}
+#flipui-main #magazines-ctr {
+	HEIGHT: 188px; WHITE-SPACE: nowrap; POSITION: relative
+}
+
+@media Unknown    
+{
+#flipui-main #magazines-ctr {
+	HEIGHT: 148px
+}
+    }
+#flipui-main .magazines {
+	OVERFLOW: hidden; HEIGHT: 152px; WIDTH: 100%; WHITE-SPACE: nowrap; PADDING-TOP: 12px; PADDING-LEFT: 12px; -webkit-user-select: none; -ms-user-select: none; -moz-user-select: none; user-select: none
+}
+
+@media Unknown    
+{
+#flipui-main .magazines {
+	HEIGHT: 112px; PADDING-TOP: 10px; PADDING-LEFT: 10px
+}
+    }
+#flipui-main #mag-tmpl {
+	DISPLAY: none
+}
+#flipui-main .magazine {
+	OVERFLOW: hidden; CURSOR: pointer; HEIGHT: 136px; WIDTH: 118px; BACKGROUND-REPEAT: no-repeat; POSITION: relative; BACKGROUND-POSITION: center center; FLOAT: left; MARGIN: 0px 12px 12px 0px; BACKGROUND-COLOR: #ccc; background-size: cover; box-shadow: 0 1px 2px rgba(0,0,0,0.8)
+}
+#flipui-main .magazine .name {
+	WORD-WRAP: break-word; FONT-SIZE: 16px; WHITE-SPACE: normal; RIGHT: 8px; POSITION: absolute; FONT-WEIGHT: 900; COLOR: #fff; TEXT-ALIGN: left; LEFT: 8px; Z-INDEX: 2; TOP: 8px; text-shadow: 0 1px 1px rgba(0,0,0,0.6)
+}
+#flipui-main .magazine .gradient {
+	BACKGROUND: url(https://d2jsycj2ly2vqh.cloudfront.net/bookmarklet/images/gradient_top.png) no-repeat 0px 0px; RIGHT: 0px; POSITION: absolute; LEFT: 0px; Z-INDEX: 0; TOP: 0px; BOTTOM: 50%; background-size: 100% 100%
+}
+#flipui-main .magazine .private {
+	HEIGHT: 40px; BACKGROUND: url(https://d2jsycj2ly2vqh.cloudfront.net/bookmarklet/images/gradient_bottom.png) no-repeat 0px 0px; RIGHT: 0px; POSITION: absolute; LEFT: 0px; Z-INDEX: 2; BOTTOM: 0px; background-size: 100% 100%
+}
+#flipui-main .magazine .private .locked {
+	HEIGHT: 22px; WIDTH: 16px; BACKGROUND: url(https://d2jsycj2ly2vqh.cloudfront.net/bookmarklet/images/lock_white@2x.png) no-repeat center center; RIGHT: 6px; POSITION: absolute; BOTTOM: 6px; background-size: 16px 22px
+}
+#flipui-main .magazine .selected {
+	RIGHT: 0px; POSITION: absolute; LEFT: 0px; Z-INDEX: 3; DISPLAY: none; TOP: 0px; BOTTOM: 0px; -webkit-transform: translateZ(0)
+}
+#flipui-main .magazine .show.selected {
+	DISPLAY: block
+}
+#flipui-main .magazine .selected-check {
+	BACKGROUND: url(https://d2jsycj2ly2vqh.cloudfront.net/bookmarklet/images/selected@2x.png) no-repeat center center; RIGHT: 0px; POSITION: absolute; LEFT: 0px; TOP: 0px; BOTTOM: 0px; background-size: 42px 42px; -webkit-transform: translateZ(0); -webkit-animation-duration: 300ms; -moz-animation-duration: 300ms; -o-animation-duration: 300ms; -animation-duration: 300ms
+}
+
+@media Unknown    
+{
+#flipui-main .magazine {
+	HEIGHT: 100px; WIDTH: 88px; MARGIN: 0px 8px 8px 0px
+}
+#flipui-main .magazine .name {
+	FONT-SIZE: 14px; RIGHT: 6px; LEFT: 6px; text-shadow: 0 1px 1px rgba(0,0,0,0.6)
+}
+#flipui-main .magazine .private {
+	HEIGHT: 32px
+}
+#flipui-main .magazine .private .locked {
+	HEIGHT: 15px; WIDTH: 11px; background-size: 11px 15px
+}
+#flipui-main .magazine .selected-check {
+	background-size: 32px 32px
+}
+    }
+#flipui-main #create-magazine {
+	FONT-SIZE: 14px; BACKGROUND: url(https://d2jsycj2ly2vqh.cloudfront.net/bookmarklet/images/create_new.png) #e5e5e5; POSITION: relative; FONT-WEIGHT: 600; COLOR: #999; TEXT-ALIGN: center; text-shadow: 0 1px 0 rgba(255,255,255,0.5); background-size: 118px 136px; box-shadow: 0 1px 1px rgba(255,255,255,0.8)
+}
+#flipui-main #create-magazine .text {
+	WIDTH: 100%; POSITION: absolute; TEXT-ALIGN: center; LEFT: 0px; LINE-HEIGHT: 136px; TOP: 0px
+}
+#flipui-main #create-magazine:hover {
+	COLOR: #666; BACKGROUND-COLOR: #ddd
+}
+
+@media Unknown    
+{
+#flipui-main #create-magazine {
+	BACKGROUND: url(https://d2jsycj2ly2vqh.cloudfront.net/bookmarklet/images/create_new.png) #e5e5e5; background-size: 88px 100px
+}
+#flipui-main #create-magazine .text {
+	LINE-HEIGHT: 100px
+}
+    }
+#flipui-main .bounce {
+	-webkit-animation-name: bounce; -moz-animation-name: bounce; animation-name: bounce; o-animation-name: bounce
+}
+#flipui-main #pages {
+	RIGHT: 0px; POSITION: absolute; TEXT-ALIGN: center; LEFT: 0px; BOTTOM: 12px
+}
+#flipui-main #pages .page {
+	CURSOR: pointer; HEIGHT: 6px; WIDTH: 6px; BACKGROUND: #aaa; MARGIN: 0px 8px 0px 0px; DISPLAY: inline-block; border-radius: 6px
+}
+#flipui-main #pages .active.page {
+	BACKGROUND: #666
+}
+#flipui-main #pages .page:unknown {
+	MARGIN: 0px
+}
+#flipui-main #pages .page-control {
+	CURSOR: pointer; HEIGHT: 32px; WIDTH: 36px; BACKGROUND: url(https://d2jsycj2ly2vqh.cloudfront.net/bookmarklet/images/arrows@2x.png) no-repeat 0px 0px; BOTTOM: -10px; TEXT-INDENT: -10000px; background-size: 72px 64px
+}
+#flipui-main #pages #prev {
+	POSITION: absolute; BACKGROUND-POSITION: 0px 0px; LEFT: 0px
+}
+#flipui-main #pages .hide#prev {
+	DISPLAY: none
+}
+#flipui-main #pages #prev:hover {
+	BACKGROUND-POSITION: 0px -32px
+}
+#flipui-main #pages #next {
+	RIGHT: 0px; POSITION: absolute; BACKGROUND-POSITION: -36px 0px
+}
+#flipui-main #pages #next:hover {
+	BACKGROUND-POSITION: -36px -32px
+}
+#flipui-main #comment {
+	HEIGHT: 130px; POSITION: relative; MARGIN: 0px 12px
+}
+#flipui-main #comment #image-preview {
+	HEIGHT: 80px; WIDTH: 80px; BACKGROUND: #ccc no-repeat center center; RIGHT: 0px; POSITION: absolute; DISPLAY: block; TOP: 12px; background-size: cover; border-radius: 2px; box-shadow: inset 0 1px 2px rgba(0,0,0,0.2),inset 0 -1px 1px rgba(0,0,0,0.1)
+}
+#flipui-main #comment #image-preview .noimage {
+	FONT-SIZE: 13px; COLOR: #fff; TEXT-ALIGN: center; MARGIN-TOP: 24px; DISPLAY: block
+}
+#flipui-main #comment TEXTAREA {
+	BORDER-LEFT-WIDTH: 0px; OVERFLOW: auto; HEIGHT: 104px; BORDER-RIGHT-WIDTH: 0px; WIDTH: 80%; BACKGROUND: none transparent scroll repeat 0% 0%; BORDER-BOTTOM-WIDTH: 0px; POSITION: relative; COLOR: #262626; OUTLINE-WIDTH: 0px; FONT: 16px HNC; LEFT: 0px; DISPLAY: block; TOP: 14px; BORDER-TOP-WIDTH: 0px; border-radius: 0; resize: none
+}
+
+@media Unknown    
+{
+#flipui-main #comment {
+	HEIGHT: 80px; MARGIN: 0px 10px
+}
+#flipui-main #comment #image-preview {
+	HEIGHT: 50px; WIDTH: 50px; TOP: 10px
+}
+#flipui-main #comment TEXTAREA {
+	HEIGHT: 68px; WIDTH: 208px; TOP: 10px
+}
+    }
+#flipui-main #services {
+	HEIGHT: 56px; WIDTH: auto; PADDING-BOTTOM: 12px; PADDING-TOP: 12px; PADDING-LEFT: 0px; MARGIN: 0px 12px; PADDING-RIGHT: 0px
+}
+#flipui-main .hide#services {
+	VISIBILITY: hidden
+}
+
+@media Unknown    
+{
+#flipui-main #services {
+	PADDING-BOTTOM: 10px; PADDING-TOP: 10px; PADDING-LEFT: 0px; MARGIN: 0px 10px; PADDING-RIGHT: 0px
+}
+    }
+#flipui-main .service-wrp {
+	DISPLAY: inline-block; curson: pointer
+}
+#flipui-main .service-wrp [type=checkbox] {
+	DISPLAY: none
+}
+#flipui-main .hide.service-wrp {
+	DISPLAY: none
+}
+#flipui-main .service-wrp .service {
+	CURSOR: pointer; HEIGHT: 32px; WIDTH: 32px; VERTICAL-ALIGN: middle; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: 0px 0px; MARGIN: 0px 12px 0px 0px; DISPLAY: inline-block; BACKGROUND-COLOR: #f7f7f7; background-size: cover; border-radius: 1px; box-shadow: inset 0 1px 1px rgba(0,0,0,0.15)
+}
+#flipui-main .service-wrp .facebook.service {
+	BACKGROUND-IMAGE: url(https://d2jsycj2ly2vqh.cloudfront.net/serviceIcons/v2/social-icon-facebook-32-bw.png)
+}
+#flipui-main .service-wrp .active.facebook.service {
+	BACKGROUND-IMAGE: url(https://d2jsycj2ly2vqh.cloudfront.net/serviceIcons/v2/social-icon-facebook-32.png)
+}
+#flipui-main .service-wrp .twitter.service {
+	BACKGROUND-IMAGE: url(https://d2jsycj2ly2vqh.cloudfront.net/serviceIcons/v2/social-icon-twitter-32-bw.png)
+}
+#flipui-main .service-wrp .active.twitter.service {
+	BACKGROUND-IMAGE: url(https://d2jsycj2ly2vqh.cloudfront.net/serviceIcons/v2/social-icon-twitter-32.png)
+}
+#flipui-main .service-wrp .tumblr.service {
+	BACKGROUND-IMAGE: url(https://d2jsycj2ly2vqh.cloudfront.net/serviceIcons/v2/social-icon-tumblr-32-bw.png)
+}
+#flipui-main .service-wrp .active.tumblr.service {
+	BACKGROUND-IMAGE: url(https://d2jsycj2ly2vqh.cloudfront.net/serviceIcons/v2/social-icon-tumblr-32.png)
+}
+#flipui-main .service-wrp .linkedin.service {
+	BACKGROUND-IMAGE: url(https://d2jsycj2ly2vqh.cloudfront.net/serviceIcons/v2/social-icon-linkedin-32-bw.png)
+}
+#flipui-main .service-wrp .active.linkedin.service {
+	BACKGROUND-IMAGE: url(https://d2jsycj2ly2vqh.cloudfront.net/serviceIcons/v2/social-icon-linkedin-32.png)
+}
+#flipui-main .service-wrp .googleplus.service {
+	BACKGROUND-IMAGE: url(https://d2jsycj2ly2vqh.cloudfront.net/serviceIcons/v2/social-icon-googleplus-32-bw.png)
+}
+#flipui-main .service-wrp .active.googleplus.service {
+	BACKGROUND-IMAGE: url(https://d2jsycj2ly2vqh.cloudfront.net/serviceIcons/v2/social-icon-googleplus-32.png)
+}
+#flipui-main .service-wrp .renren.service {
+	BACKGROUND-IMAGE: url(https://d2jsycj2ly2vqh.cloudfront.net/serviceIcons/v2/social-icon-renren-32-bw.png)
+}
+#flipui-main .service-wrp .active.renren.service {
+	BACKGROUND-IMAGE: url(https://d2jsycj2ly2vqh.cloudfront.net/serviceIcons/v2/social-icon-renren-32.png)
+}
+#flipui-main .service-wrp .weibo.service {
+	BACKGROUND-IMAGE: url(https://d2jsycj2ly2vqh.cloudfront.net/serviceIcons/v2/social-icon-weibo-32-bw.png)
+}
+#flipui-main .service-wrp .active.weibo.service {
+	BACKGROUND-IMAGE: url(https://d2jsycj2ly2vqh.cloudfront.net/serviceIcons/v2/social-icon-weibo-32.png)
+}
+#flipui-main .service-wrp .tcweibo.service {
+	BACKGROUND-IMAGE: url(https://d2jsycj2ly2vqh.cloudfront.net/serviceIcons/v2/social-icon-tencent-32-bw.png)
+}
+#flipui-main .service-wrp .active.tcweibo.service {
+	BACKGROUND-IMAGE: url(https://d2jsycj2ly2vqh.cloudfront.net/serviceIcons/v2/social-icon-tencent-32.png)
+}
+#flipui-main .service-wrp .qzone.service {
+	BACKGROUND-IMAGE: url(https://d2jsycj2ly2vqh.cloudfront.net/serviceIcons/v2/social-icon-qzone-32-bw.png)
+}
+#flipui-main .service-wrp .active.qzone.service {
+	BACKGROUND-IMAGE: url(https://d2jsycj2ly2vqh.cloudfront.net/serviceIcons/v2/social-icon-qzone-32.png)
+}
+#flipui-main .service-wrp .name {
+	DISPLAY: none
+}
+
+@media Unknown    
+{
+UNKNOWN {
+	DISPLAY: none
+}
+#flipui-main .service-wrp .facebook.service {
+	BACKGROUND-IMAGE: url(https://d2jsycj2ly2vqh.cloudfront.net/serviceIcons/v2/social-icon-facebook-64-bw.png)
+}
+#flipui-main .service-wrp .active.facebook.service {
+	BACKGROUND-IMAGE: url(https://d2jsycj2ly2vqh.cloudfront.net/serviceIcons/v2/social-icon-facebook-64.png)
+}
+#flipui-main .service-wrp .twitter.service {
+	BACKGROUND-IMAGE: url(https://d2jsycj2ly2vqh.cloudfront.net/serviceIcons/v2/social-icon-twitter-64-bw.png)
+}
+#flipui-main .service-wrp .active.twitter.service {
+	BACKGROUND-IMAGE: url(https://d2jsycj2ly2vqh.cloudfront.net/serviceIcons/v2/social-icon-twitter-64.png)
+}
+#flipui-main .service-wrp .tumblr.service {
+	BACKGROUND-IMAGE: url(https://d2jsycj2ly2vqh.cloudfront.net/serviceIcons/v2/social-icon-tumblr-64-bw.png)
+}
+#flipui-main .service-wrp .active.tumblr.service {
+	BACKGROUND-IMAGE: url(https://d2jsycj2ly2vqh.cloudfront.net/serviceIcons/v2/social-icon-tumblr-64.png)
+}
+#flipui-main .service-wrp .linkedin.service {
+	BACKGROUND-IMAGE: url(https://d2jsycj2ly2vqh.cloudfront.net/serviceIcons/v2/social-icon-linkedin-64-bw.png)
+}
+#flipui-main .service-wrp .active.linkedin.service {
+	BACKGROUND-IMAGE: url(https://d2jsycj2ly2vqh.cloudfront.net/serviceIcons/v2/social-icon-linkedin-64.png)
+}
+#flipui-main .service-wrp .googleplus.service {
+	BACKGROUND-IMAGE: url(https://d2jsycj2ly2vqh.cloudfront.net/serviceIcons/v2/social-icon-googleplus-64-bw.png)
+}
+#flipui-main .service-wrp .active.googleplus.service {
+	BACKGROUND-IMAGE: url(https://d2jsycj2ly2vqh.cloudfront.net/serviceIcons/v2/social-icon-googleplus-64.png)
+}
+#flipui-main .service-wrp .renren.service {
+	BACKGROUND-IMAGE: url(https://d2jsycj2ly2vqh.cloudfront.net/serviceIcons/v2/social-icon-renren-64-bw.png)
+}
+#flipui-main .service-wrp .active.renren.service {
+	BACKGROUND-IMAGE: url(https://d2jsycj2ly2vqh.cloudfront.net/serviceIcons/v2/social-icon-renren-64.png)
+}
+#flipui-main .service-wrp .weibo.service {
+	BACKGROUND-IMAGE: url(https://d2jsycj2ly2vqh.cloudfront.net/serviceIcons/v2/social-icon-weibo-64-bw.png)
+}
+#flipui-main .service-wrp .active.weibo.service {
+	BACKGROUND-IMAGE: url(https://d2jsycj2ly2vqh.cloudfront.net/serviceIcons/v2/social-icon-weibo-64.png)
+}
+#flipui-main .service-wrp .tcweibo.service {
+	BACKGROUND-IMAGE: url(https://d2jsycj2ly2vqh.cloudfront.net/serviceIcons/v2/social-icon-tencent-64-bw.png)
+}
+#flipui-main .service-wrp .active.tcweibo.service {
+	BACKGROUND-IMAGE: url(https://d2jsycj2ly2vqh.cloudfront.net/serviceIcons/v2/social-icon-tencent-64.png)
+}
+#flipui-main .service-wrp .qzone.service {
+	BACKGROUND-IMAGE: url(https://d2jsycj2ly2vqh.cloudfront.net/serviceIcons/v2/social-icon-qzone-64-bw.png)
+}
+#flipui-main .service-wrp .active.qzone.service {
+	BACKGROUND-IMAGE: url(https://d2jsycj2ly2vqh.cloudfront.net/serviceIcons/v2/social-icon-qzone-64.png)
+}
+    }
+#flipui-main #signout {
+	RIGHT: 12px; POSITION: absolute; BOTTOM: 20px
+}
+#flipui-main #signout A {
+	FONT-SIZE: 14px; TEXT-DECORATION: none; BORDER-BOTTOM: #ccc 1px solid; FONT-WEIGHT: 600; COLOR: #999
+}
+#flipui-main #signout A:hover {
+	BORDER-BOTTOM: #abd3ec 1px solid; COLOR: #2992d4
+}
+#flipui-main .fl-magazine-form {
+	BOX-SIZING: border-box; WIDTH: 400px; BACKGROUND: #f7f7f7; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; DISPLAY: none; PADDING-RIGHT: 0px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; border-radius: 3px; box-shadow: 0 2px 6px rgba(0,0,0,0.4),0 -1px 2px rgba(0,0,0,0.2)
+}
+#flipui-main .fl-magazine-form #form-header {
+	HEIGHT: 60px; POSITION: relative; TEXT-ALIGN: center
+}
+#flipui-main .fl-magazine-form #form-header H1 {
+	OVERFLOW: hidden; FONT-SIZE: 16px; WHITE-SPACE: nowrap; TEXT-OVERFLOW: ellipsis; FONT-WEIGHT: 600; COLOR: #262626; PADDING-BOTTOM: 0px; PADDING-TOP: 22px; PADDING-LEFT: 0px; MARGIN: 0px 120px; PADDING-RIGHT: 0px; text-shadow: 0 1px 0 #fff
+}
+#flipui-main .fl-magazine-form #form-header .left {
+	POSITION: absolute; LEFT: 12px; TOP: 12px
+}
+#flipui-main .fl-magazine-form #form-header .right {
+	RIGHT: 12px; MIN-WIDTH: 50px; POSITION: absolute; TOP: 12px
+}
+
+@media Unknown    
+{
+#flipui-main .fl-magazine-form #form-header {
+	HEIGHT: 56px
+}
+#flipui-main .fl-magazine-form #form-header .left {
+	LEFT: 10px; TOP: 10px
+}
+#flipui-main .fl-magazine-form #form-header .right {
+	RIGHT: 10px; TOP: 10px
+}
+    }
+#flipui-main .fl-magazine-form #form-header H1 {
+	OVERFLOW: hidden; FONT-SIZE: 16px; WHITE-SPACE: nowrap; TEXT-OVERFLOW: ellipsis; FONT-WEIGHT: 600; COLOR: #262626; PADDING-BOTTOM: 0px; PADDING-TOP: 22px; PADDING-LEFT: 0px; MARGIN: 0px 120px; PADDING-RIGHT: 0px; text-shadow: 0 1px 0 #fff
+}
+#flipui-main .fl-magazine-form #form-header .left {
+	POSITION: absolute; LEFT: 12px; TOP: 12px
+}
+#flipui-main .fl-magazine-form #form-header .right {
+	RIGHT: 12px; MIN-WIDTH: 50px; POSITION: absolute; TOP: 12px
+}
+
+@media Unknown    
+{
+#flipui-main .fl-magazine-form #form-header {
+	HEIGHT: 56px
+}
+#flipui-main .fl-magazine-form #form-header .left {
+	LEFT: 10px; TOP: 10px
+}
+#flipui-main .fl-magazine-form #form-header .right {
+	RIGHT: 10px; TOP: 10px
+}
+    }
+#flipui-main .fl-magazine-form #form-header .fl-button {
+	PADDING-BOTTOM: 8px; PADDING-TOP: 8px; PADDING-LEFT: 8px; PADDING-RIGHT: 8px
+}
+#flipui-main .fl-magazine-form #form-content {
+	BORDER-TOP: #ccc 1px solid; PADDING-BOTTOM: 12px; PADDING-TOP: 12px; PADDING-LEFT: 0px; MARGIN: 0px 12px; PADDING-RIGHT: 0px
+}
+#flipui-main .fl-magazine-form #form-content INPUT[type=text] {
+	WIDTH: 100%; resize: none
+}
+#flipui-main .fl-magazine-form #form-content TEXTAREA {
+	WIDTH: 100%; resize: none
+}
+#flipui-main .fl-magazine-form #form-content SELECT {
+	WIDTH: 100%; resize: none
+}
+#flipui-main .fl-magazine-form #form-content TEXTAREA {
+	OVERFLOW: auto; HEIGHT: 82px; PADDING-BOTTOM: 10px; PADDING-TOP: 10px; PADDING-LEFT: 8px; PADDING-RIGHT: 8px
+}
+#flipui-main .fl-magazine-form #form-content .private {
+	BORDER-TOP: #ccc 1px dotted; PADDING-BOTTOM: 0px; PADDING-TOP: 12px; PADDING-LEFT: 0px; MARGIN: 8px 0px 12px; PADDING-RIGHT: 0px
+}
+#flipui-main .fl-magazine-form #form-content .private [type=checkbox] {
+	FONT-SIZE: 14px; FONT-WEIGHT: 600; COLOR: #999; MARGIN: 6px 0px 0px; DISPLAY: inline-block
+}
+#flipui-main .fl-magazine-form #form-content .private SPAN {
+	FONT-SIZE: 14px; FONT-WEIGHT: 600; COLOR: #999; MARGIN: 6px 0px 0px; DISPLAY: inline-block
+}
+#flipui-main .fl-magazine-form #form-content .private SPAN.lock_option {
+	HEIGHT: 22px; WIDTH: 16px; VERTICAL-ALIGN: middle; BACKGROUND: url(https://d2jsycj2ly2vqh.cloudfront.net/bookmarklet/images/lock_gray.png); MARGIN: 0px 8px; DISPLAY: inline-block
+}
+
+@media Unknown    
+{
+#flipui-main .fl-magazine-form {
+	HEIGHT: 309px; WIDTH: 280px
+}
+#flipui-main .fl-magazine-form #form-header .left {
+	LEFT: 6px; TOP: 6px
+}
+#flipui-main .fl-magazine-form #form-header .right {
+	RIGHT: 6px; TOP: 6px
+}
+#flipui-main .fl-magazine-form #form-content {
+	PADDING-BOTTOM: 6px; PADDING-TOP: 6px; PADDING-LEFT: 0px; MARGIN: 0px 6px; PADDING-RIGHT: 0px
+}
+#flipui-main .fl-magazine-form #form-content .fl-field {
+	MARGIN: 0px 0px 6px
+}
+#flipui-main .fl-magazine-form #form-content .private {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 12px; PADDING-LEFT: 0px; MARGIN: 8px 0px 12px; PADDING-RIGHT: 0px
+}
+    }
+#flipui-main #status {
+	DISPLAY: none
+}
