@@ -1,0 +1,572 @@
+﻿
+/* Site Background
+----------------------------------------------------------*/
+
+.pageBackground {
+    background-image: url('/weberautogroup/WeberAutoGroup_files/PageBackground.png');
+    background-repeat: repeat-x;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+
+/* Page Container
+----------------------------------------------------------*/
+
+.pageContainer {
+    display: block;
+    height: auto;
+    margin: 0px auto -70px auto;
+    min-height: 100%;
+    width: 1140px;
+}
+
+
+/* Page Header
+----------------------------------------------------------*/
+
+header {
+    height: 116px;
+    width: 1100px;
+    margin: 0px auto 0px auto;
+}
+
+#HeaderLogo {
+    margin: 42px 0px 0px 25px;
+    background-repeat: no-repeat;
+}
+
+#HeaderPanel {
+    background-image: url('/weberautogroup/WeberAutoGroup_files/ContactInfo.png');
+    width: 200px;
+    height: 38px;
+    float: right;
+    margin: 55px 29px 0px 0px;
+}
+
+
+/* Menu Control
+----------------------------------------------------------*/
+
+#menu {
+    background-image: url('/weberautogroup/WeberAutoGroup_files/Background.png');
+    display: block;
+    height: 50px;
+    margin: 0px auto 0px auto;
+    width: 1100px;
+    padding: 0px 0px 0px 0px;
+}
+
+.menuItem {
+    float: left;
+    text-align: center;
+    width: 132px;
+    height: 50px;
+    background-image: url('/weberautogroup/WeberAutoGroup_files/DividerBoth.png');
+    background-repeat: no-repeat;
+    background-position: 130px 0px;
+}
+
+    .menuItem:hover, .menuItem:focus {
+        background: url('/weberautogroup/WeberAutoGroup_files/ItemHoverBackground.png');
+    }
+    
+.menuItemSelected, .menuItemSelected:hover, .menuItemSelected:focus {
+    background: url('/weberautogroup/WeberAutoGroup_files/SelectedBackground.png');
+    margin-left: -1px;
+    padding-left: 1px;
+    width: 132px;
+}
+
+.menuFirstLine, .menuFirstLine:link, .menuFirstLine:visited {
+    color: White;
+    display: block;
+    font-size: 1.2em;
+    font-weight: bold;
+    height: 40px;
+    padding: 10px 0px 0px 0px;
+    text-decoration: none;
+}
+
+.menuSecondLine, .menuSecondLine:link, .menuSecondLine:visited {
+    color: White;
+    display: block;
+    font-size: 0.7em;
+    margin: -22px 0px 0px 0px;
+    opacity: 0.5;
+    text-decoration: none;
+}
+
+.menuFirstLine:active, .menuSecondLine:active {
+    background-color: transparent;
+}
+
+
+/* Search Control
+----------------------------------------------------------*/
+
+#menuSearchControl {
+    float: right;
+    width: 220px;
+    height: 100%;
+    margin-right: 30px;
+}
+
+#menuSearchEdit {
+    position: absolute;
+    margin: 11px -20px 0px 0px;
+    border-style: none;
+    outline-width: 0;
+    width: 220px;
+    height: 28px;
+    background: url('/weberautogroup/WeberAutoGroup_files/Search.png') no-repeat;
+    padding: 2px 0px 0px 14px;
+}
+
+    #menuSearchEdit:focus, menuSearchEdit:hover {
+        background: url('/weberautogroup/WeberAutoGroup_files/SearchFocus.png') no-repeat;
+    }
+
+    #menuSearchEdit::-ms-clear {
+      display: none;
+  }
+
+#menuSearchIcon {
+    position: absolute;
+    background: url('/weberautogroup/WeberAutoGroup_files/SearchIcon.png') no-repeat;
+    width: 20px;
+    height: 20px;
+    margin: 17px 0px 0px 190px;
+}
+
+    #menuSearchIcon:hover {
+        background: url('/weberautogroup/WeberAutoGroup_files/SearchIconHover.png') no-repeat;
+        cursor: pointer;
+    }
+
+
+/* Content Structure
+----------------------------------------------------------*/
+
+#contentWrapper {
+    display: block;
+    margin: 0px auto 0px auto;
+    padding: 42px 0px 220px 0px;
+    width: 1040px;
+}
+
+#content {
+    display: inline-block;
+    text-align: justify;
+}
+
+.contentWithSidebar {
+    width: 720px;
+    min-height: 620px;
+}
+
+.contentWithoutSidebar {
+    width: 1040px;
+}
+
+.contentFullWidth {
+    width: 4000px;
+    margin: 40px 60px 40px 60px;
+}
+
+
+/* Sidebar
+----------------------------------------------------------*/
+
+#sidebar {
+    display: inline-block;
+    float: right;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 10px 50px;
+    width: 220px;
+    border-left: 1px solid #e4e4e4;
+}
+
+.contactSidebarHeading {
+    font-size: 1.4em;
+    margin: 14px 0px 0px 0px;
+    padding: 0px;
+}
+
+.contentSidebarItem {
+    margin: 0px;
+    padding: 0px;
+}
+
+#contentSidebarMap {
+    width: 220px;
+    height: 220px;
+    background-image: url('/weberautogroup/WeberAutoGroup_files/Map.png');
+    margin-top: 4px;
+}
+
+.contentSidebarMapLinkDivider {
+    opacity: 0.2;
+    margin: 0px 2px 0px 2px;
+}
+
+.contentSidebarDay {
+}
+
+.contentSidebarHours {
+    float: right;
+    margin: 0px 0px 0px 0px;
+}
+
+.contentSidebarNote {
+}
+
+
+/* Footer
+----------------------------------------------------------*/
+
+footer {
+    display: block;
+    margin: 0px auto 0px auto;
+    padding: 0px 50px 0px 50px;
+    width: 1040px;
+}
+
+#footerDivider {
+    background-color: #e4e4e4;
+    height: 1px;
+}
+
+#footerTopRow {
+    width: 100%;
+    height: 36px;
+    line-height: 36px;
+    margin-top: 6px;
+    vertical-align: middle;
+}
+
+#footerBottomRow {
+    width: 100%;
+    height: 100%;
+}
+
+#footerIcons {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.footerIcon {
+    float: left;
+    vertical-align: middle;
+}
+
+#footerLinks {
+    display: inline-block;
+    float: right;
+    vertical-align: middle;
+}
+
+.footerLink {
+}
+
+.footerLinkDivider {
+    opacity: 0.2;
+    margin: 0px 4px 0px 4px;
+}
+
+#footerCopyright {
+    float: right;
+    font-size: .85em;
+    opacity: 0.4;
+    margin: -6px 0px 0px 0px;
+}
+
+
+/* Content Heading & Sections
+----------------------------------------------------------*/
+
+.pageHeading {
+    margin: 10px 0px 16px 0px;
+    font-size: 2.0em;
+    font-weight: bold;
+}
+
+.sectionHeading {
+    font-size: 1.4em;
+    font-weight: bold;
+    margin: 0px;
+    clear: both;
+}
+
+.sectionDivider {
+    margin: 60px 0px 14px 0px;
+    padding: 0px 0px 4px 0px;
+}
+
+.sectionDividerWithBorder {
+    margin: 60px 0px 14px 0px;
+    padding: 0px 0px 4px 0px;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.sectionBody {
+    font-size: 1.0em;
+    margin: 0px 0px 1.2em 0px;
+    clear: both;
+}
+
+.optionsRow {
+}
+
+.optionsRowMargin {
+    margin: 32px 0px 0px 0px;
+}
+
+.optionsHeading {
+    font-weight: bold;
+    margin: 0px 0px 4px 0px;
+}
+
+.optionsHeadingMargin {
+    margin: 18px 0px 4px 0px;
+}
+
+
+/* Content Columns
+----------------------------------------------------------*/
+
+.singleColumn {
+    display: inline-block;
+    width: 960px;
+    vertical-align: top;
+}
+
+.doubleColumn {
+    display: inline-block;
+    width: 480px;
+    vertical-align: top;
+}
+
+.tripleColumn {
+    display: inline-block;
+    width: 320px;
+    vertical-align: top;
+}
+
+.quadColumn {
+    display: inline-block;
+    width: 240px;
+    vertical-align: top;
+}
+
+.quintColumn {
+    display: inline-block;
+    width: 192px;
+    vertical-align: top;
+}
+
+.singleSpanColumn {
+    display: inline-block;
+    width: 240px;
+    vertical-align: top;
+}
+
+.doubleSpanColumn {
+    display: inline-block;
+    width: 480px;
+    vertical-align: top;
+}
+
+.tripleSpanColumn {
+    display: inline-block;
+    width: 720px;
+    vertical-align: top;
+}
+
+
+/* Standard Text Alignment
+----------------------------------------------------------*/
+
+.textAlignLeft {
+    text-align: left;
+}
+
+.textAlignCenter {
+    text-align: center;
+}
+
+.textAlignRight {
+    text-align: right;
+}
+
+
+/* Editing Controls
+----------------------------------------------------------*/
+
+.editContainer {
+    margin: 2px 0px 0px 0px;
+}
+
+.editLabel {
+    display: inline-block;
+    width: 80px;
+    height: 18px;
+    padding: 0px 0px 0px 0px;
+    margin: 1px 0px 0px 0px;
+    vertical-align: top;
+}
+
+.editText {
+    display: inline-block;
+    width: 156px;
+    height: 18px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 4px;
+    vertical-align: middle;
+}
+
+.editSelectControl {
+    display: inline-block;
+    width: 162px;
+    height: 20px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    border: 1px solid silver;
+}
+
+.editSelectControlSmall {
+    display: inline-block;
+    width: 79px;
+    height: 20px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    border: 1px solid silver;
+}
+
+.editTextBox {
+    display: inline-block;
+    width: 156px;
+    height: 18px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 4px;
+    border: 1px solid silver;
+    vertical-align: middle;
+}
+
+.editTextBoxDoubleWidth {
+    display: inline-block;
+    width: 312px;
+    height: 18px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 4px;
+    border: 1px solid silver;
+    vertical-align: middle;
+}
+
+.editTextBoxTripleWidth {
+    display: inline-block;
+    width: 468px;
+    height: 18px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 4px;
+    border: 1px solid silver;
+    vertical-align: middle;
+}
+
+.editTextBoxMedium {
+    display: inline-block;
+    width: 400px;
+    height: 100px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 4px;
+    border: 1px solid silver;
+    vertical-align: middle;
+}
+
+.editTextBoxNoBorder {
+    display: inline-block;
+    height: 18px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 4px;
+    border: 0px;
+    color: #007de6;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.field-validation-error { 
+    display: block;
+    color: #ff0000;
+}
+
+
+/* Table Action Links
+----------------------------------------------------------*/
+
+.linkDivider {
+    color: white;
+    padding: 0px 2px 0px 2px;
+}
+
+
+/* StandardFormatting
+----------------------------------------------------------*/
+
+.hide {
+    display: none;
+}
+
+.debit {
+    color: red;
+}
+
+.credit {
+    color: black;
+}
+
+
+
+/* StandardLink
+----------------------------------------------------------*/
+
+.standardLink {
+    background: none;
+    border: none;
+    font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
+    color: #007de6;
+}
+
+    .standardLink:hover {
+        text-decoration: underline;
+        cursor: pointer;        
+    }
+
+
+/* Print Media Query
+----------------------------------------------------------*/
+
+@media print {
+    header, footer, #menu, .hidePrinting { display: none !important; }
+    .galleria-counter, #LegalDisclaimer { visibility: hidden; }
+}
+
+
+/* Debug
+----------------------------------------------------------*/
+
+/*html { background-color: #c8c8c8; }*/
+/*body { background-color:#f00; }*/
+/*footer { background-color: #4cff00; }*/
+/*#footerTopRow { background-color: orange; }*/
+/*#footerBottomRow { background-color: yellow; }*/
+/*#footerIcons { background-color: purple; }*/
+/*#footerLinks { background-color: #e8e8e8; }*/
+/*.footerLinkDivider { color: green; }*/
+/*#footerCopyright { background-color: green; }*/
+/*#footerPoweredBy { background-color: blue; }*/
+/*#contentWrapper { background-color: green; }*/
+/*#content { background-color: blue; }*/
+/*#sidebar { background-color: orange; }*/
+/*#menu { background-color: #ffd800; }*/
+/*header { background-color: yellow; }*/
+/*#pageContainer { background-color: purple; }*/

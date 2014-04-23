@@ -1,0 +1,143 @@
+﻿
+@-ms-viewport {
+    width:480px;
+}
+
+
+body {
+    width: 100%;
+    overflow: hidden;
+}
+
+/* Page Container
+----------------------------------------------------------*/
+
+.pageContainer {
+    width: 400px;
+    margin-bottom: 0px 0px 100px 0px;
+}
+
+
+/* Page Header
+----------------------------------------------------------*/
+
+header {
+    width: 400px;
+    text-align: center;
+}
+
+#HeaderLogo {
+    margin: 42px auto 0px auto;
+}
+
+#HeaderPanel {
+    display: none;
+}
+
+
+/* Content Structure
+----------------------------------------------------------*/
+
+#contentWrapper {
+    padding: 0px;
+    width: 220px;
+}
+
+#content {
+    display: none;
+}
+
+
+/* Menu Control
+----------------------------------------------------------*/
+
+#menu {
+    background-image: url('/weberautogroup/WeberAutoGroup_files/Background.png');
+    display: block;
+    height: 50px;
+    margin: 12px auto 42px auto;
+    width: 132px;
+    padding: 0px 0px 0px 0px;
+}
+
+.menuItem {
+    float: left;
+    text-align: center;
+    width: 132px;
+    height: 50px;
+    background-image: url('/weberautogroup/WeberAutoGroup_files/DividerBoth.png');
+    background-repeat: no-repeat;
+    background-position: 130px 0px;
+}
+
+    .menuItem:hover, .menuItem:focus {
+        background: url('/weberautogroup/WeberAutoGroup_files/ItemHoverBackground.png');
+    }
+
+.menuFirstLine, .menuFirstLine:link, .menuFirstLine:visited {
+    color: White;
+    display: block;
+    font-size: 1.2em;
+    font-weight: bold;
+    height: 40px;
+    padding: 10px 0px 0px 0px;
+    text-decoration: none;
+}
+
+.menuSecondLine, .menuSecondLine:link, .menuSecondLine:visited {
+    color: White;
+    display: block;
+    font-size: 0.7em;
+    margin: -22px 0px 0px 0px;
+    opacity: 0.5;
+    text-decoration: none;
+}
+
+    .menuFirstLine:active, .menuSecondLine:active {
+        background-color: transparent;
+    }
+
+#menuSearchControl {
+    display: none;
+}
+
+#FinancingMenu, #WelcomeMenu {
+    display: none;
+}
+
+
+/* Sidebar
+----------------------------------------------------------*/
+
+#sidebar {
+    display: inline-block;
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    width: 220px;
+    border-left: 0px;
+}
+
+.contactSidebarHeading {
+    font-size: 1.4em;
+    margin: 14px 0px 0px 0px;
+    padding: 0px;
+}
+
+.contentSidebarItem {
+    margin: 0px;
+    padding: 0px;
+}
+
+.contentSidebarHours {
+    float: right;
+    margin: 0px 0px 0px 0px;
+}
+
+
+/* Footer
+----------------------------------------------------------*/
+
+footer {
+    display: none;
+}

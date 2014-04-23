@@ -1,0 +1,138 @@
+﻿
+/* Welcome Page
+----------------------------------------------------------*/
+
+.welcomeInformationContainer {
+    margin-top: 32px;
+    width: 100%;
+}
+
+.welcomeInformationColumn1 {
+    float: left;
+    width: 47%;
+}
+
+.welcomeInformationColumn2 {
+    float: right;
+    width: 47%;
+}
+
+.welcomeInformationContent {
+    text-align: left;
+}
+
+.welcomeVehicleSelectionRow {
+    margin: 4px 0px 10px 0px;
+}
+
+.welcomeVehicleType {
+    display: inline-block;
+    width: 102px;
+    text-align: center;
+    vertical-align: bottom;
+    margin: 8px 0px 0px 0px;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.welcomeVehicleLabel {
+    text-align: center;
+    margin: 36px 0px 0px 0px;
+}
+
+.typeConvertible {
+    background-image: url('/Content/Images/VehicleStyles/Convertible.png');
+}
+
+    .typeConvertible:hover {
+        background-image: url('/Content/Images/VehicleStylesGray/Convertible.png');
+    }
+
+.typeCoupe {
+    background-image: url('/Content/Images/VehicleStyles/Coupe.png');
+}
+
+    .typeCoupe:hover {
+        background-image: url('/Content/Images/VehicleStylesGray/Coupe.png');
+    }
+
+.typeCrossover {
+    background-image: url('/Content/Images/VehicleStyles/Crossover.png');
+}
+
+    .typeCrossover:hover {
+        background-image: url('/Content/Images/VehicleStylesGray/Crossover.png');
+    }
+
+
+.typeHatchback {
+    background-image: url('/Content/Images/VehicleStyles/Hatchback.png');
+}
+
+    .typeHatchback:hover {
+        background-image: url('/Content/Images/VehicleStylesGray/Hatchback.png');
+    }
+
+.typeHybrid {
+    background-image: url('/Content/Images/VehicleStyles/Hybrid.png');
+}
+
+    .typeHybrid:hover {
+        background-image: url('/Content/Images/VehicleStylesGray/Hybrid.png');
+    }
+
+.typeLuxury {
+    background-image: url('/Content/Images/VehicleStyles/Luxury.png');
+}
+
+    .typeLuxury:hover {
+        background-image: url('/Content/Images/VehicleStylesGray/Luxury.png');
+    }
+
+.typeTruck {
+    background-image: url('/Content/Images/VehicleStyles/Truck.png');
+}
+
+    .typeTruck:hover {
+        background-image: url('/Content/Images/VehicleStylesGray/Truck.png');
+    }
+
+.typeSedan {
+    background-image: url('/Content/Images/VehicleStyles/Sedan.png');
+}
+
+    .typeSedan:hover {
+        background-image: url('/Content/Images/VehicleStylesGray/Sedan.png');
+    }
+
+.typeSUV {
+    background-image: url('/Content/Images/VehicleStyles/SUV.png');
+}
+
+    .typeSUV:hover {
+        background-image: url('/Content/Images/VehicleStylesGray/SUV.png');
+    }
+
+.typeVan {
+    background-image: url('/Content/Images/VehicleStyles/Van.png');
+}
+
+    .typeVan:hover {
+        background-image: url('/Content/Images/VehicleStylesGray/Van.png');
+    }
+
+.typeWagon {
+    background-image: url('/Content/Images/VehicleStyles/Wagon.png');
+}
+
+    .typeWagon:hover {
+        background-image: url('/Content/Images/VehicleStylesGray/Wagon.png');
+    }
+
+.typeOther {
+    background-image: url('/Content/Images/VehicleStyles/Other.png');
+}
+
+    .typeOther:hover {
+        background-image: url('/Content/Images/VehicleStylesGray/Other.png');
+    }

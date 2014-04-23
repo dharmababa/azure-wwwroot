@@ -1,0 +1,32 @@
+﻿
+/* Base Fonts & Colors
+----------------------------------------------------------*/
+
+html {
+    height: 100%;
+}
+
+body {
+    color: #333;
+    font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
+    font-size: 80%;
+    margin: 0px;
+    padding: 0px;
+}
+
+a, a:link, a:visited, a:active, a:hover, .link {
+    color: #007de6;
+    text-decoration: none;
+    cursor: pointer;
+}
+    a:hover, .link:hover {
+        text-decoration: underline;
+    }
+
+a img {
+    border: none;
+}
+
+.accentColor {
+    color: #007de6;
+}
