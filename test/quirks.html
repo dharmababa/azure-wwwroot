@@ -1,0 +1,17 @@
+﻿<html>
+<head>
+    <title>test page with no doctype</title>
+    <script type="text/javascript">
+        function showDocMode()
+        {
+            var el = document.getElementById("docMode");
+            el.innerText = document.documentMode;
+        }
+    </script>
+</head>
+<body onload="showDocMode();">
+    This page has no doctype<br/><br/>
+
+    The document mode for this page is: <span id="docMode"></span>
+</body>
+</html>

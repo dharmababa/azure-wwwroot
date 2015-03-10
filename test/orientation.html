@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Windows Phone 8.1 IE mobile resize event bug</title>
+    <meta charset="UTF-8">
+
+    <style>
+        /*Event will trigger only if viewport device-width rule is omitted*/
+        @-ms-viewport {
+            width: device-width;
+        }
+    </style>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+    <script>
+            var i = 0;
+            window.addEventListener("orientationchange", function(){
+              var wwidth = $(window).width();
+              $('body').append('<p>'+i+' Resized, w.width is '+wwidth+'</p>');
+              i++;
+            });
+    </script>
+</head>
+<body>
+    <h3>Windows Phone 8.1 IE mobile resize event bug</h3>
+    <small>IE11 mobile is unable to fire the window.resize event if a CSS viewport rule with width:device-width or 100% is applied, it can be reproduced without iframing contents that would mix up viewport rules, on Nokia Lumia 630</small>
+    <blockquote>
+        <b>CSS</b>
+        <code>
+            /*Event will trigger only if viewport device-width rule is omitted*/
+            @-ms-viewport{ width:device-width; }
+        </code>
+    </blockquote>
+
+    <blockquote>
+        <b>JS</b>
+        <code>
+            var i = 0;
+
+            window.addEventListener("orientationchange", function(){
+            var wwidth = $(window).width();
+            $('body').append('&raquo;p&laquo;'+i+' Resized, w.width is '+wwidth+'&raquo;p&laquo;');
+            i++;
+            });
+        </code>
+    </blockquote>
+
+    <hr>
+</body>
+</html>
